@@ -10,13 +10,15 @@ import UIKit
 
 class VerseOTDView: UIView {
 	
+	//MARK: - Declarations
+	
 	let colorManager = ColorManager()
 	
-	lazy var sectionLabel: UILabel = {
+	lazy var verseSectionLabel: UILabel = {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = colorManager.appFont?.withSize(17)
+		label.font = colorManager.appFontSemiBold?.withSize(17)
 		label.text = "Verse Of The Day"
 		label.textColor = colorManager.systemWhite
 		
@@ -53,7 +55,13 @@ class VerseOTDView: UIView {
 		
 		let image = UIImageView()
 		image.translatesAutoresizingMaskIntoConstraints = false
-		image.image = colorManager.christianImages[0]
+		
+		if let usedImage = colorManager.christianImages.randomElement() {
+			image.image = usedImage
+		} else {
+			image.image = colorManager.christianImages[0]
+		}
+
 		image.contentMode = .scaleAspectFill
 		
 		return image
@@ -70,13 +78,13 @@ class VerseOTDView: UIView {
 		return view
 	}()
 	
-	lazy var bibleVerseLocale: UILabel = {
+	lazy var verseReference: UILabel = {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.text = "John 3:16 · NIV"
+		label.text = ""
 		label.textColor = colorManager.systemWhite.withAlphaComponent(0.60)
-		label.font = colorManager.appFont?.withSize(14)
+		label.font = colorManager.appFontSemiBold?.withSize(14)
 		
 		return label
 		
@@ -86,9 +94,9 @@ class VerseOTDView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.text = "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+		label.text = ""
 		label.textColor = colorManager.systemWhite.withAlphaComponent(0.75)
-		label.font = colorManager.appFont?.withSize(15)
+		label.font = colorManager.appFontSemiBold?.withSize(15)
 		label.numberOfLines = 100
 		label.lineBreakMode = .byWordWrapping
 		label.textAlignment = .center
@@ -97,6 +105,8 @@ class VerseOTDView: UIView {
 		
 	}()
 	
+	
+	//MARK: - Override init
 	
 	override init(frame: CGRect) {
 		super.init(frame: frame)
@@ -107,18 +117,21 @@ class VerseOTDView: UIView {
 		
 	}
 	
+	
+	//MARK: - Setup functions
+	
 	//Setup of the view
 	func setupView() {
 		
 		self.translatesAutoresizingMaskIntoConstraints = false
 		self.backgroundColor = .clear
 		
-		addSubview(sectionLabel)
+		addSubview(verseSectionLabel)
 		
 		NSLayoutConstraint.activate([
 			
-			sectionLabel.topAnchor.constraint(equalTo: self.topAnchor),
-			sectionLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 25),
+			verseSectionLabel.topAnchor.constraint(equalTo: self.topAnchor),
+			verseSectionLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 25),
 		
 		])
 	}
@@ -134,9 +147,7 @@ class VerseOTDView: UIView {
 		
 		NSLayoutConstraint.activate([
 			
-			
-			
-			containerView.topAnchor.constraint(equalTo: sectionLabel.bottomAnchor,constant: 10),
+			containerView.topAnchor.constraint(equalTo: verseSectionLabel.bottomAnchor,constant: 17),
 			containerView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20),
 			containerView.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20),
 			containerView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.75),
@@ -158,7 +169,7 @@ class VerseOTDView: UIView {
 	func setupOverlay() {
 		
 		containerView.addSubview(imageOverlay)
-		imageOverlay.addSubview(bibleVerseLocale)
+		imageOverlay.addSubview(verseReference)
 		imageOverlay.addSubview(bibleVerse)
 		
 		
@@ -169,11 +180,11 @@ class VerseOTDView: UIView {
 		imageOverlay.trailingAnchor.constraint(equalTo: containerView.trailingAnchor),
 		imageOverlay.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
 		
-		bibleVerseLocale.centerXAnchor.constraint(equalTo: imageOverlay.centerXAnchor),
-		bibleVerseLocale.topAnchor.constraint(equalTo: imageOverlay.topAnchor, constant: 30),
+		verseReference.centerXAnchor.constraint(equalTo: imageOverlay.centerXAnchor),
+		verseReference.topAnchor.constraint(equalTo: imageOverlay.topAnchor, constant: 30),
 		
 		bibleVerse.centerXAnchor.constraint(equalTo: imageOverlay.centerXAnchor),
-		bibleVerse.topAnchor.constraint(equalTo: bibleVerseLocale.topAnchor, constant: 30),
+		bibleVerse.topAnchor.constraint(equalTo: verseReference.topAnchor, constant: 30),
 		bibleVerse.leadingAnchor.constraint(equalTo: imageOverlay.leadingAnchor, constant: 10),
 		bibleVerse.trailingAnchor.constraint(equalTo: imageOverlay.trailingAnchor, constant: -10),
 
