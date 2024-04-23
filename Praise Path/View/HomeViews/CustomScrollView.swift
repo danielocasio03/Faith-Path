@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 class CustomScrollView: UIScrollView {
-	
+		
 	//MARK: - Declarations
 	
 	//This is the content view that will go in the scrollview and be the container view all of views houses within the scrollview
@@ -50,8 +50,6 @@ class CustomScrollView: UIScrollView {
 			contentView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
 			contentView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
 			contentView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-			contentView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 2),
-			contentView.widthAnchor.constraint(equalTo: self.widthAnchor),
 
 			
 		])

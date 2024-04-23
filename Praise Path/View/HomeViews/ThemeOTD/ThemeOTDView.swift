@@ -12,7 +12,7 @@ class ThemeOTDView: UIView {
 	
 	//MARK: - Declaraations
 	
-	let colorManager = ColorManager()
+	let designManager = DesignManager()
 	
 	let scrollView = CustomScrollView()
 	
@@ -22,9 +22,9 @@ class ThemeOTDView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = colorManager.appFontSemiBold?.withSize(17)
+		label.font = designManager.appFontSemiBold?.withSize(17)
 		label.text = "Today's Theme - Stress"
-		label.textColor = colorManager.systemWhite
+		label.textColor = designManager.systemWhite
 		
 		return label
 	}()
@@ -40,6 +40,7 @@ class ThemeOTDView: UIView {
 		
 		//MARK: - Setup functions
 		
+		//General setup for the view
 		func setupView() {
 			
 			self.addSubview(themeSectionLabel)
@@ -56,21 +57,25 @@ class ThemeOTDView: UIView {
 		}
 		
 		
+		//This is the setup function for setting up and adding the horizintal scrollview and stackview for the ThemeOTDView
 		func integrateHorizontalScrollStack() {
 			
 			addSubview(scrollView)
 			scrollView.contentView.addSubview(stackView)
+			scrollView.isPagingEnabled = true
+			scrollView.showsHorizontalScrollIndicator = false
+			scrollView.showsVerticalScrollIndicator = false
 			
 			NSLayoutConstraint.activate([
-			
-				scrollView.topAnchor.constraint(equalTo: self.themeSectionLabel.bottomAnchor),
+				//scrollView Constraints
+				scrollView.topAnchor.constraint(equalTo: self.themeSectionLabel.bottomAnchor, constant: 8),
 				scrollView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
 				scrollView.bottomAnchor.constraint(equalTo: self.bottomAnchor),
 				scrollView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-				
+				//scrollViews contentView constraints
 				scrollView.contentView.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 3),
-				scrollView.contentView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.85),
-				
+				scrollView.contentView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.80),
+				//stackView Constraints
 				stackView.topAnchor.constraint(equalTo: scrollView.contentView.topAnchor),
 				stackView.bottomAnchor.constraint(equalTo: scrollView.contentView.bottomAnchor),
 				stackView.leadingAnchor.constraint(equalTo: scrollView.contentView.leadingAnchor),
@@ -79,9 +84,7 @@ class ThemeOTDView: UIView {
 				stackView.heightAnchor.constraint(equalTo: scrollView.contentView.heightAnchor),
 
 			])
-			
 		}
-		
 		
 	}
 	

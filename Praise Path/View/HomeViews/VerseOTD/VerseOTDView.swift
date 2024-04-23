@@ -12,15 +12,15 @@ class VerseOTDView: UIView {
 	
 	//MARK: - Declarations
 	
-	let colorManager = ColorManager()
+	let designManager = DesignManager()
 	
 	lazy var verseSectionLabel: UILabel = {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = colorManager.appFontSemiBold?.withSize(17)
+		label.font = designManager.appFontSemiBold?.withSize(17)
 		label.text = "Verse Of The Day"
-		label.textColor = colorManager.systemWhite
+		label.textColor = designManager.systemWhite
 		
 		return label
 	}()
@@ -31,7 +31,7 @@ class VerseOTDView: UIView {
 		view.backgroundColor = .clear
 		view.translatesAutoresizingMaskIntoConstraints = false
 		view.layer.cornerRadius = 25
-		view.layer.borderColor = colorManager.borderColor.cgColor
+		view.layer.borderColor = designManager.borderColor.cgColor
 		view.layer.borderWidth = 2
 		
 		return view
@@ -56,10 +56,10 @@ class VerseOTDView: UIView {
 		let image = UIImageView()
 		image.translatesAutoresizingMaskIntoConstraints = false
 		
-		if let usedImage = colorManager.christianImages.randomElement() {
+		if let usedImage = designManager.christianImages.randomElement() {
 			image.image = usedImage
 		} else {
-			image.image = colorManager.christianImages[0]
+			image.image = designManager.christianImages[0]
 		}
 
 		image.contentMode = .scaleAspectFill
@@ -72,7 +72,7 @@ class VerseOTDView: UIView {
 		
 		let view = UIView()
 		view.translatesAutoresizingMaskIntoConstraints = false
-		view.backgroundColor = colorManager.overlayColor
+		view.backgroundColor = designManager.overlayColor
 		view.layer.cornerRadius = 20
 		
 		return view
@@ -83,8 +83,8 @@ class VerseOTDView: UIView {
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.text = ""
-		label.textColor = colorManager.systemWhite.withAlphaComponent(0.60)
-		label.font = colorManager.appFontSemiBold?.withSize(14)
+		label.textColor = designManager.systemWhite.withAlphaComponent(0.65)
+		label.font = designManager.appFontSemiBold?.withSize(14)
 		
 		return label
 		
@@ -95,8 +95,8 @@ class VerseOTDView: UIView {
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.text = ""
-		label.textColor = colorManager.systemWhite.withAlphaComponent(0.75)
-		label.font = colorManager.appFontSemiBold?.withSize(15)
+		label.textColor = designManager.systemWhite.withAlphaComponent(0.75)
+		label.font = designManager.appFontSemiBold?.withSize(15)
 		label.numberOfLines = 100
 		label.lineBreakMode = .byWordWrapping
 		label.textAlignment = .center
@@ -181,12 +181,12 @@ class VerseOTDView: UIView {
 		imageOverlay.leadingAnchor.constraint(equalTo: containerView.leadingAnchor),
 		
 		verseReference.centerXAnchor.constraint(equalTo: imageOverlay.centerXAnchor),
-		verseReference.topAnchor.constraint(equalTo: imageOverlay.topAnchor, constant: 30),
+		verseReference.centerYAnchor.constraint(equalTo: imageOverlay.centerYAnchor, constant: -40),
 		
 		bibleVerse.centerXAnchor.constraint(equalTo: imageOverlay.centerXAnchor),
-		bibleVerse.topAnchor.constraint(equalTo: verseReference.topAnchor, constant: 30),
-		bibleVerse.leadingAnchor.constraint(equalTo: imageOverlay.leadingAnchor, constant: 10),
-		bibleVerse.trailingAnchor.constraint(equalTo: imageOverlay.trailingAnchor, constant: -10),
+		bibleVerse.topAnchor.constraint(equalTo: verseReference.topAnchor, constant: 25),
+		bibleVerse.leadingAnchor.constraint(equalTo: imageOverlay.leadingAnchor, constant: 20),
+		bibleVerse.trailingAnchor.constraint(equalTo: imageOverlay.trailingAnchor, constant: -20),
 
 		])
 

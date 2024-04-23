@@ -17,15 +17,11 @@ class ThemeOTDStackView: UIStackView {
 		
 		setupStackView()
 		
-		addArrangedSubview(ThemeOTDItemView())
-		addArrangedSubview(ThemeOTDItemView())
-		addArrangedSubview(ThemeOTDItemView())
-
-		
 	}
 	
 	
 	//MARK: - View Setup Functions
+	
 	func setupStackView() {
 		
 		self.translatesAutoresizingMaskIntoConstraints = false
