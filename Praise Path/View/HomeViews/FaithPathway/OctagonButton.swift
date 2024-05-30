@@ -9,15 +9,13 @@ import Foundation
 import UIKit
 
 class OctagonButton: UIButton {
-	
-	let designManager = DesignManager()
-	
+		
 	lazy var buttonLabel: UILabel = {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontMedium?.withSize(12)
-		label.textColor = designManager.systemWhite
+		label.font = DesignManager.shared.appFontMedium?.withSize(12)
+		label.textColor = DesignManager.shared.systemWhite
 		return label
 	}()
 	

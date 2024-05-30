@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'Praise Path' in project 'Praise Path' (no dependencies)
+Target 'Praise Path' in project 'Praise Path' (no dependencies)

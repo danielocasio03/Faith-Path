@@ -11,9 +11,7 @@ import UIKit
 class ThemeOTDView: UIView {
 	
 	//MARK: - Declaraations
-	
-	let designManager = DesignManager()
-	
+		
 	let scrollView = CustomScrollView()
 	
 	let stackView = ThemeOTDStackView()
@@ -22,9 +20,8 @@ class ThemeOTDView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontSemiBold?.withSize(17)
-		label.text = "Today's Theme - Stress"
-		label.textColor = designManager.systemWhite
+		label.font = DesignManager.shared.appFontSemiBold?.withSize(17)
+		label.textColor = DesignManager.shared.systemWhite
 		
 		return label
 	}()

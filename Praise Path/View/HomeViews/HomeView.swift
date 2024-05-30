@@ -11,9 +11,7 @@ import UIKit
 class HomeView: UIView {
 		
 	//MARK: - Declarations
-	
-	let designManager = DesignManager()
-	
+			
 	let scrollView = CustomScrollView()
 	
 	let themeOTDView = ThemeOTDView()
@@ -21,6 +19,15 @@ class HomeView: UIView {
 	let verseOTDView = VerseOTDView()
 	
 	let faithPathView = FaithPathView()
+	
+	lazy var greetingLabel: UILabel = {
+		let label = UILabel()
+		label.translatesAutoresizingMaskIntoConstraints = false
+		label.text = DesignManager.shared.greeting
+		label.font = DesignManager.shared.appFontSemiBold
+		label.textColor = DesignManager.shared.systemWhite
+		return label
+	}()
 	
 	let musicView: MiscView = {
 		
@@ -42,16 +49,6 @@ class HomeView: UIView {
 		
 	}()
 	
-	lazy var greetingLabel: UILabel = {
-		let label = UILabel()
-		label.translatesAutoresizingMaskIntoConstraints = false
-		label.text = designManager.greeting
-		label.font = designManager.appFontSemiBold
-		label.textColor = designManager.systemWhite
-		return label
-	}()
-	
-
 	
 	
 	//MARK: - Override Functions
@@ -70,14 +67,18 @@ class HomeView: UIView {
 		
 	}
 	
-	//Override layoutSubviews
 	override func layoutSubviews() {
 		super.layoutSubviews()
-
-		//Setup of the background gradient for the HomeView
-		let backgroundGradient = designManager.homeScreenGradient
-		backgroundGradient.frame = self.bounds
-		self.layer.insertSublayer(backgroundGradient, at: 0)
+		
+		let lightGradientColor = UIColor(red: 35/255, green: 42/255, blue: 50/255, alpha: 1.0)
+		let darkGradientColor = UIColor(red: 9/255, green: 12/255, blue: 16/255, alpha: 1.0)
+		let gradient = CAGradientLayer()
+		gradient.colors = [lightGradientColor.cgColor, darkGradientColor.cgColor]
+		gradient.startPoint = CGPoint(x: 0, y: 0)
+		gradient.endPoint = CGPoint(x: 0.5, y: 1.0)
+		gradient.frame = self.bounds
+		self.layer.insertSublayer(gradient, at: 0)
+		
 	}
 	
 	

@@ -12,9 +12,7 @@ import UIKit
 class FaithPathView: UIView {
 	
 	//MARK: - Declarations
-	
-	let designManager = DesignManager()
-		
+			
 	//UIView for the divider at the top of the FaithPathView
 	lazy var dividerLine: UIView = {
 		
@@ -31,8 +29,8 @@ class FaithPathView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontSemiBold?.withSize(17)
-		label.textColor = designManager.systemWhite
+		label.font = DesignManager.shared.appFontSemiBold?.withSize(17)
+		label.textColor = DesignManager.shared.systemWhite
 		label.text = "Your Faith Path"
 		
 		return label
@@ -109,7 +107,7 @@ class FaithPathView: UIView {
 	//This function sets up the gradient for the divider line (called in layoutSubviews)
 	func gradientSetups() {
 		
-		let gradient = designManager.dividerGradient
+		let gradient = DesignManager.shared.dividerGradient
 		gradient.frame = dividerLine.bounds
 		dividerLine.layer.insertSublayer(gradient, at: 0)
 		

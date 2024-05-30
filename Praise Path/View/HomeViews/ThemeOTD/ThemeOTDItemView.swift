@@ -11,9 +11,7 @@ import UIKit
 class ThemeOTDItemView: UIView {
 	
 	//MARK: - Declarations
-	
-	let designManager = DesignManager()
-	
+		
 	//This houses and loads the fetched youtube video
 	lazy var youtubePlayer: YoutubePlayer = {
 		
@@ -29,8 +27,8 @@ class ThemeOTDItemView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontMedium?.withSize(12)
-		label.textColor = designManager.systemWhite.withAlphaComponent(0.75)
+		label.font = DesignManager.shared.appFontMedium?.withSize(12)
+		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.75)
 		label.numberOfLines = 100
 		label.lineBreakMode = .byWordWrapping
 		label.textAlignment = .center
@@ -42,8 +40,8 @@ class ThemeOTDItemView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontMedium?.withSize(12)
-		label.textColor = designManager.systemWhite.withAlphaComponent(0.65)
+		label.font = DesignManager.shared.appFontMedium?.withSize(12)
+		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.65)
 		label.textAlignment = .center
 		return label
 		

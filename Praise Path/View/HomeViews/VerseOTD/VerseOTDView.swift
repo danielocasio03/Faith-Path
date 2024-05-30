@@ -12,15 +12,13 @@ class VerseOTDView: UIView {
 	
 	//MARK: - Declarations
 	
-	let designManager = DesignManager()
-	
 	lazy var verseSectionLabel: UILabel = {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontSemiBold?.withSize(17)
+		label.font = DesignManager.shared.appFontSemiBold?.withSize(17)
 		label.text = "Verse Of The Day"
-		label.textColor = designManager.systemWhite
+		label.textColor = DesignManager.shared.systemWhite
 		
 		return label
 	}()
@@ -31,7 +29,7 @@ class VerseOTDView: UIView {
 		view.backgroundColor = .clear
 		view.translatesAutoresizingMaskIntoConstraints = false
 		view.layer.cornerRadius = 25
-		view.layer.borderColor = designManager.borderColor.cgColor
+		view.layer.borderColor = DesignManager.shared.grayBlack.cgColor
 		view.layer.borderWidth = 2
 		
 		return view
@@ -56,10 +54,10 @@ class VerseOTDView: UIView {
 		let image = UIImageView()
 		image.translatesAutoresizingMaskIntoConstraints = false
 		
-		if let usedImage = designManager.christianImages.randomElement() {
+		if let usedImage = DesignManager.shared.christianImages.randomElement() {
 			image.image = usedImage
 		} else {
-			image.image = designManager.christianImages[0]
+			image.image = DesignManager.shared.christianImages[0]
 		}
 
 		image.contentMode = .scaleAspectFill
@@ -72,7 +70,7 @@ class VerseOTDView: UIView {
 		
 		let view = UIView()
 		view.translatesAutoresizingMaskIntoConstraints = false
-		view.backgroundColor = designManager.overlayColor
+		view.backgroundColor = DesignManager.shared.overlayColor
 		view.layer.cornerRadius = 20
 		
 		return view
@@ -83,8 +81,8 @@ class VerseOTDView: UIView {
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.text = ""
-		label.textColor = designManager.systemWhite.withAlphaComponent(0.65)
-		label.font = designManager.appFontSemiBold?.withSize(14)
+		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.65)
+		label.font = DesignManager.shared.appFontSemiBold?.withSize(14)
 		
 		return label
 		
@@ -95,8 +93,8 @@ class VerseOTDView: UIView {
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.text = ""
-		label.textColor = designManager.systemWhite.withAlphaComponent(0.75)
-		label.font = designManager.appFontSemiBold?.withSize(15)
+		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.75)
+		label.font = DesignManager.shared.appFontSemiBold?.withSize(15)
 		label.numberOfLines = 100
 		label.lineBreakMode = .byWordWrapping
 		label.textAlignment = .center

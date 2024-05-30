@@ -11,9 +11,7 @@ import UIKit
 class MiscView: UIView {
 	
 	//MARK: - Declarations
-	
-	let designManager = DesignManager()
-	
+		
 	//border for the container
 	lazy var containerBorder: UIView = {
 	
@@ -21,7 +19,7 @@ class MiscView: UIView {
 		view.backgroundColor = .clear
 		view.translatesAutoresizingMaskIntoConstraints = false
 		view.layer.cornerRadius = 25
-		view.layer.borderColor = designManager.borderColor.cgColor
+		view.layer.borderColor = DesignManager.shared.grayBlack.cgColor
 		view.layer.borderWidth = 2
 		
 		return view
@@ -45,8 +43,8 @@ class MiscView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontSemiBold?.withSize(12)
-		label.textColor = designManager.systemWhite
+		label.font = DesignManager.shared.appFontSemiBold?.withSize(12)
+		label.textColor = DesignManager.shared.systemWhite
 		label.numberOfLines = 2
 		label.lineBreakMode = .byWordWrapping
 		label.textAlignment = .center
@@ -64,7 +62,7 @@ class MiscView: UIView {
 		button.imageView?.contentMode = .scaleAspectFill
 		button.setImage(UIImage(named: "Spotify"), for: .normal)
 		button.isHidden = true
-		button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+//		button.addTarget(self, action: #selector(octaBibleTapped), for: .touchUpInside)
 
 		return button
 		
@@ -78,7 +76,7 @@ class MiscView: UIView {
 		button.imageView?.contentMode = .scaleAspectFill
 		button.setImage(UIImage(named: "AppleMusic"), for: .normal)
 		button.isHidden = true
-		button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+//		button.addTarget(self, action: #selector(octaBibleTapped), for: .touchUpInside)
 		
 		return button
 		
@@ -89,7 +87,7 @@ class MiscView: UIView {
 		
 		let button = PrayerReqButton()
 		button.isHidden = true
-		button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+//		button.addTarget(self, action: #selector(octaBibleTapped), for: .touchUpInside)
 		
 		return button
 		
@@ -101,7 +99,7 @@ class MiscView: UIView {
 		let borderView = UIView()
 		//Creates and sets up the border for the button
 		borderView.translatesAutoresizingMaskIntoConstraints = false
-		borderView.layer.borderColor = designManager.borderColor.cgColor
+		borderView.layer.borderColor = DesignManager.shared.grayBlack.cgColor
 		borderView.layer.borderWidth = 1.5
 		borderView.layer.cornerRadius = 15
 		borderView.isHidden = true
@@ -126,13 +124,18 @@ class MiscView: UIView {
 
 	}
 	
+	
 	override func layoutSubviews() {
 		super.layoutSubviews()
-		//Sets up the gradient that is that serves as the background for the container view
-		let backgroundGradient = designManager.miscViewGradient
+		//Sets up the gradient backgrounds for the miscViews
+		let lightGradientColor = UIColor(red: 25/255, green: 32/255, blue: 40/255, alpha: 1.0)
+		let darkGradientColor = UIColor(red: 9/255, green: 12/255, blue: 16/255, alpha: 1.0)
+		let backgroundGradient = CAGradientLayer()
+		backgroundGradient.colors = [lightGradientColor.cgColor, darkGradientColor.cgColor]
+		backgroundGradient.startPoint = CGPoint(x: 0, y: 0)
+		backgroundGradient.endPoint = CGPoint(x: 0.5, y: 1.0)
 		backgroundGradient.frame = self.bounds
 		containerView.layer.insertSublayer(backgroundGradient, at: 0)
-		
 		
 	}
 	
@@ -188,6 +191,7 @@ class MiscView: UIView {
 			
 		])
 	}
+	
 	
 	
 	

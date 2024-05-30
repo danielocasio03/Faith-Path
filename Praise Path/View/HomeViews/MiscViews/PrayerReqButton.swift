@@ -9,21 +9,19 @@ import Foundation
 import UIKit
 
 class PrayerReqButton: UIButton {
-	
-	let designManager = DesignManager()
-	
+		
 	override init(frame: CGRect) {
 		super.init(frame: frame)
 		
 		//Custom attributed text for the buttons text
 		let customText = NSAttributedString(string: "Reach out", attributes:[
-			.foregroundColor: designManager.systemWhite,
-			.font: designManager.appFontSemiBold?.withSize(12) ?? UIFont.systemFont(ofSize: 12)
+			.foregroundColor: DesignManager.shared.systemWhite,
+			.font: DesignManager.shared.appFontSemiBold?.withSize(12) ?? UIFont.systemFont(ofSize: 12)
 		])
 		
 		//button setup
 		self.translatesAutoresizingMaskIntoConstraints = false
-		self.backgroundColor = designManager.charcoalBlack
+		self.backgroundColor = DesignManager.shared.charcoalBlack
 		self.layer.cornerRadius = 10
 		self.setAttributedTitle(customText, for: .normal)
 		

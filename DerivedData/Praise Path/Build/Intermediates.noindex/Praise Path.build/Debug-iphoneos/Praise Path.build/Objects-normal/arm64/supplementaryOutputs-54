@@ -1,0 +1,18 @@
+"/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/CustomScrollView.swift":
+  object: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.o"
+  swift-dependencies: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.swiftdeps"
+  diagnostics: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.dia"
+  const-values: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.swiftconstvalues"
+  dependencies: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.d"
+"/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Controller/HomeViewController.swift":
+  object: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.o"
+  dependencies: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.d"
+  const-values: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.swiftconstvalues"
+  swift-dependencies: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.swiftdeps"
+  diagnostics: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.dia"
+"/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/ThemeOTD/ThemeOTDView.swift":
+  object: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.o"
+  swift-dependencies: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.swiftdeps"
+  dependencies: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.d"
+  const-values: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.swiftconstvalues"
+  diagnostics: "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.dia"

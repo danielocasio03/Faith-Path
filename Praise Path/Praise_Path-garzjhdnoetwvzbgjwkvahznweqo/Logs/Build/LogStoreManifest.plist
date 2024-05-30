@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>45EC4E1A-C3AD-4B58-A1EA-18DDD7C9CC52</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>45EC4E1A-C3AD-4B58-A1EA-18DDD7C9CC52.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Praise Path project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Praise Path</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Praise Path</string>
+			<key>timeStartedRecording</key>
+			<real>733006649.63033903</real>
+			<key>timeStoppedRecording</key>
+			<real>733006649.71735001</real>
+			<key>title</key>
+			<string>Build Praise Path</string>
+			<key>uniqueIdentifier</key>
+			<string>45EC4E1A-C3AD-4B58-A1EA-18DDD7C9CC52</string>
+		</dict>
+		<key>63F13857-765C-4CA9-9623-D587F8BD5CF2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>63F13857-765C-4CA9-9623-D587F8BD5CF2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Praise Path project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Praise Path</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Praise Path</string>
+			<key>timeStartedRecording</key>
+			<real>733006403.58881605</real>
+			<key>timeStoppedRecording</key>
+			<real>733006403.69055498</real>
+			<key>title</key>
+			<string>Build Praise Path</string>
+			<key>uniqueIdentifier</key>
+			<string>63F13857-765C-4CA9-9623-D587F8BD5CF2</string>
+		</dict>
+		<key>79D6BB16-5414-472F-929C-9CDE53E53CA0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>79D6BB16-5414-472F-929C-9CDE53E53CA0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>2</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Praise Path project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Praise Path</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Praise Path</string>
+			<key>timeStartedRecording</key>
+			<real>733006632.77473497</real>
+			<key>timeStoppedRecording</key>
+			<real>733006640.40884101</real>
+			<key>title</key>
+			<string>Build Praise Path</string>
+			<key>uniqueIdentifier</key>
+			<string>79D6BB16-5414-472F-929C-9CDE53E53CA0</string>
+		</dict>
+		<key>8AC7C04A-1351-4B82-A044-9355711DA250</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8AC7C04A-1351-4B82-A044-9355711DA250.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Praise Path project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Praise Path</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Praise Path</string>
+			<key>timeStartedRecording</key>
+			<real>733006404.62756598</real>
+			<key>timeStoppedRecording</key>
+			<real>733006404.761271</real>
+			<key>title</key>
+			<string>Build Praise Path</string>
+			<key>uniqueIdentifier</key>
+			<string>8AC7C04A-1351-4B82-A044-9355711DA250</string>
+		</dict>
+		<key>AA17D263-EE94-4FBD-B269-C38E3B0FA1E1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AA17D263-EE94-4FBD-B269-C38E3B0FA1E1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Praise Path project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Praise Path</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Praise Path</string>
+			<key>timeStartedRecording</key>
+			<real>733006582.70480895</real>
+			<key>timeStoppedRecording</key>
+			<real>733006582.90708995</real>
+			<key>title</key>
+			<string>Build Praise Path</string>
+			<key>uniqueIdentifier</key>
+			<string>AA17D263-EE94-4FBD-B269-C38E3B0FA1E1</string>
+		</dict>
+		<key>CA3044CE-ACB1-4557-8F6F-580C92134524</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>CA3044CE-ACB1-4557-8F6F-580C92134524.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Praise Path project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Praise Path</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Praise Path</string>
+			<key>timeStartedRecording</key>
+			<real>733006381.25434995</real>
+			<key>timeStoppedRecording</key>
+			<real>733006386.931445</real>
+			<key>title</key>
+			<string>Build Praise Path</string>
+			<key>uniqueIdentifier</key>
+			<string>CA3044CE-ACB1-4557-8F6F-580C92134524</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

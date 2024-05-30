@@ -1,0 +1,178 @@
+{
+  "" : {
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/Praise Path-master.dia",
+    "emit-module-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/Praise Path-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/Praise Path-master-emit-module.dia",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/Praise Path-master.swiftdeps"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/App Delegates/AppDelegate.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/App Delegates/SceneDelegate.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Controller/HomeViewController.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeViewController~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/DesignManager.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/DesignManager~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Model/ThemeOTD/FetchYoutubeAttributes.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/FetchYoutubeAttributes~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Model/ThemeOTD/ThemeOTDFetchManager.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDFetchManager~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Model/ThemeOTD/ThemeOTDModel.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDModel~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Model/VerseOTD/VerseOTDFetchManager.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDFetchManager~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Model/VerseOTD/VerseOTDModel.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDModel~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/CustomScrollView.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/CustomScrollView~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/HomeView.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/ThemeOTD/ThemeOTDItemView.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDItemView~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/ThemeOTD/ThemeOTDStackView.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDStackView~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/ThemeOTD/ThemeOTDView.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/ThemeOTDView~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/ThemeOTD/YoutubePlayer.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/YoutubePlayer~partial.swiftmodule"
+  },
+  "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/View/VerseOTD/VerseOTDView.swift" : {
+    "const-values" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.swiftconstvalues",
+    "dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.d",
+    "diagnostics" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.dia",
+    "index-unit-output-path" : "/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.o",
+    "llvm-bc" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.bc",
+    "object" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.o",
+    "swift-dependencies" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView.swiftdeps",
+    "swiftmodule" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex/Praise Path.build/Debug-iphoneos/Praise Path.build/Objects-normal/arm64/VerseOTDView~partial.swiftmodule"
+  }
+}

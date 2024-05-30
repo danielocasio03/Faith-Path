@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto1</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto10</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo10.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo10</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto11</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo11.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo11</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto12</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo12.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo12</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto13</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo13.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo13</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto14</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo14.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo14</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto15</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo15.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo15</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto16</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo16.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo16</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto17</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo17.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo17</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto18</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo18.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo18</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto19</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo19.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo19</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto2</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo2</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto20</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo20.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo20</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto21</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo21.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo21</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto22</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo22.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo22</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto23</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo23.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo23</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto24</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo24.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo24</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto25</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo25.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo25</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto26</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo26.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo26</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto27</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo27.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo27</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto28</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo28.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo28</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto29</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo29.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo29</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto3</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo3.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo3</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto30</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo30.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo30</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto31</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo31.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo31</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto32</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo32.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo32</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto33</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo33.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo33</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto34</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo34.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo34</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto35</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo35.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo35</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto36</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo36.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo36</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto37</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo37.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo37</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto38</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo38.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo38</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto39</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo39.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo39</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto4</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo4.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo4</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto5</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo5.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo5</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto6</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo6.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo6</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto7</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo7.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo7</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto8</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo8.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo8</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path/Supporting/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePhoto9</string>
+			<key>relativePath</key>
+			<string>./ChristianPhotos/photo9.imageset</string>
+			<key>swiftSymbol</key>
+			<string>photo9</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

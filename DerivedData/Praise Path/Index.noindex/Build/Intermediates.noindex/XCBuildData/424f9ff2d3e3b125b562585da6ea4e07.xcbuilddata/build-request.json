@@ -1,0 +1,61 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "4d27294e450c091ee64fe447a0fc313fca606763aac978191ae5fd46f1e6eb0b"
+    }
+  ],
+  "containerPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/Praise Path.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos17.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Build/Products",
+      "pchPath" : "/Users/DanielOcasio/XCODE Projects/Praise Path/DerivedData/Praise Path/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

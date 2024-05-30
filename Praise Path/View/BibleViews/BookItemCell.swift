@@ -11,9 +11,7 @@ import UIKit
 class BookItemCell: UICollectionViewCell {
 	
 	//MARK: - Declarations
-	
-	let designManager = DesignManager()
-	
+		
 	//books image
 	lazy var bookImage: UIImageView = {
 		let bookImage = UIImageView()
@@ -31,8 +29,8 @@ class BookItemCell: UICollectionViewCell {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = designManager.appFontMedium?.withSize(11)
-		label.textColor = designManager.systemWhite
+		label.font = DesignManager.shared.appFontMedium?.withSize(11)
+		label.textColor = DesignManager.shared.systemWhite
 		label.text = "Genesis"
 		return label
 	}()
@@ -42,10 +40,10 @@ class BookItemCell: UICollectionViewCell {
 		
 		let button = UIButton()
 		button.translatesAutoresizingMaskIntoConstraints = false
-		button.backgroundColor = designManager.grayBlack
+		button.backgroundColor = DesignManager.shared.grayBlack
 		button.layer.cornerRadius = 3
 		button.setImage(UIImage(systemName: "chevron.compact.down"), for: .normal)
-		button.tintColor = designManager.systemWhite
+		button.tintColor = DesignManager.shared.systemWhite
 		return button
 	}()
 	
@@ -63,8 +61,7 @@ class BookItemCell: UICollectionViewCell {
 	
 	func setupCell() {
 		//Cell Attributes
-		self.translatesAutoresizingMaskIntoConstraints = false
-		self.backgroundColor = designManager.grayBlack
+		self.backgroundColor = DesignManager.shared.grayBlack
 		self.layer.cornerRadius = 10
 		//bookImage
 		self.addSubview(bookImage)
