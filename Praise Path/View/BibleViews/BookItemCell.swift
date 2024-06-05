@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//This is the cell for each item in the UICollectionView on the BibleBooksVC
 class BookItemCell: UICollectionViewCell {
 	
 	//MARK: - Declarations
@@ -29,8 +30,8 @@ class BookItemCell: UICollectionViewCell {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.font = DesignManager.shared.appFontMedium?.withSize(11)
-		label.textColor = DesignManager.shared.systemWhite
+		label.font = DesignManager.shared.appFontMedium?.withSize(12)
+		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.75)
 		label.text = "Genesis"
 		return label
 	}()
@@ -43,7 +44,7 @@ class BookItemCell: UICollectionViewCell {
 		button.backgroundColor = DesignManager.shared.grayBlack
 		button.layer.cornerRadius = 3
 		button.setImage(UIImage(systemName: "chevron.compact.down"), for: .normal)
-		button.tintColor = DesignManager.shared.systemWhite
+		button.tintColor = DesignManager.shared.systemWhite.withAlphaComponent(0.5)
 		return button
 	}()
 	

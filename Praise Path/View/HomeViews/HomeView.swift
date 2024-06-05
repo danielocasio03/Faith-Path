@@ -8,18 +8,20 @@
 import Foundation
 import UIKit
 
+//UIView for the design of the HomeVC
 class HomeView: UIView {
 		
 	//MARK: - Declarations
-			
+	//Adds in the Scrollview for all of the content on the homescreen
 	let scrollView = CustomScrollView()
-	
+	//Addition of the ThemeOTDView
 	let themeOTDView = ThemeOTDView()
-	
+	//Addition of the VerseOTDView
 	let verseOTDView = VerseOTDView()
-	
+	//Addition of the FaithPathView
 	let faithPathView = FaithPathView()
 	
+	//Label for the greeting; will display "Good Morning" "Good Afternoon" "Good Evening" based off time of day
 	lazy var greetingLabel: UILabel = {
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
@@ -29,6 +31,7 @@ class HomeView: UIView {
 		return label
 	}()
 	
+	//One of the MiscView's for alowing users to check out our created playlist
 	let musicView: MiscView = {
 		
 		let view = MiscView()
@@ -39,7 +42,7 @@ class HomeView: UIView {
 		
 	}()
 	
-	
+	//One of the MiscView's for alowing users to submit a praeyer request
 	let prayRequestView: MiscView = {
 		
 		let view = MiscView()
@@ -66,7 +69,7 @@ class HomeView: UIView {
 		setupMiscViews()
 		
 	}
-	
+	//layoutSubviews used primarily for setting the gradient once bounds become available
 	override func layoutSubviews() {
 		super.layoutSubviews()
 		

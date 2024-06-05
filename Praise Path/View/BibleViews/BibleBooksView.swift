@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//This is the View later added into the BibleBooksVC - The BibleBooksView and VC being the screen the user lands on to select a book to read from
 class BibleBooksView: UIView {
 	
 	//MARK: - Declarations
@@ -53,7 +54,6 @@ class BibleBooksView: UIView {
 	func setupView() {
 		self.addSubview(booksCollectionView)
 		
-		
 		NSLayoutConstraint.activate([
 			booksCollectionView.topAnchor.constraint(equalTo: self.topAnchor),
 			booksCollectionView.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 15),
@@ -63,7 +63,6 @@ class BibleBooksView: UIView {
 		
 	}
 	
-	
 	//Bible collection view layout setup
 	static func collectionLayoutSetup() -> UICollectionViewLayout {
 		
@@ -72,19 +71,17 @@ class BibleBooksView: UIView {
 			widthDimension: .fractionalWidth(0.333), heightDimension: .fractionalHeight(1)))
 		item.contentInsets = NSDirectionalEdgeInsets(top: 12, leading: 12, bottom: 12, trailing: 12)
 		
-		
 		//Group
 		let group = NSCollectionLayoutGroup.horizontal(
 			layoutSize: NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalHeight(0.2)),
 			subitems: [item]
 		)
-		
+
 		//Sections
 		let section = NSCollectionLayoutSection(group: group)
 		section.orthogonalScrollingBehavior = .continuous
 		
 		return UICollectionViewCompositionalLayout(section: section)
-		
 		
 	}
 	

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+//Model for the data recieved from the VerseOTD API
 struct VerseOTDModel: Decodable {
 	
 	let verse: Verse

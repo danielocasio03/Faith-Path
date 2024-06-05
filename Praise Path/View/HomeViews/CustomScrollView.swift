@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//This is the overarching scrollview that all of the content on the home page go into
 class CustomScrollView: UIScrollView {
 		
 	//MARK: - Declarations

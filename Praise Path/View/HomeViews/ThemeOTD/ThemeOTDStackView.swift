@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+//StackView for the three ThemeOTD Items
 class ThemeOTDStackView: UIStackView {
 	
 	

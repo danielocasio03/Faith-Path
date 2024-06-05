@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931E94A62C07AC70008500A3 /* BookVersionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E94A52C07AC70008500A3 /* BookVersionButton.swift */; };
 		9323EAF42BAA4C5D00FB8AB9 /* ThemeOTDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF32BAA4C5D00FB8AB9 /* ThemeOTDModel.swift */; };
 		9323EAF62BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF52BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift */; };
 		9323EAF92BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF82BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift */; };
@@ -17,12 +18,18 @@
 		938447282BCF2F30007C6591 /* MiscView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938447272BCF2F30007C6591 /* MiscView.swift */; };
 		9388735B2BBB5D2500D3BDE3 /* FaithPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388735A2BBB5D2500D3BDE3 /* FaithPathView.swift */; };
 		939E32B22BD1CD1800E46C9D /* PrayerReqButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E32B12BD1CD1800E46C9D /* PrayerReqButton.swift */; };
+		93AAD2332C07F25F00BF21A5 /* VersionSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */; };
+		93AAD2352C091C9300BF21A5 /* VersionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */; };
 		93BB99072BE5A2DE00D93E59 /* BookItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */; };
 		93BB990C2BEC296500D93E59 /* ScriptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB990B2BEC296500D93E59 /* ScriptureVC.swift */; };
 		93BB990E2BEC297D00D93E59 /* ScriptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB990D2BEC297D00D93E59 /* ScriptureView.swift */; };
 		93CE91542B98EEB800D8C49B /* VerseOTDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE91532B98EEB800D8C49B /* VerseOTDView.swift */; };
 		93CE91562B99096600D8C49B /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE91552B99096600D8C49B /* CustomScrollView.swift */; };
 		93CE91642B993D9600D8C49B /* CrimsonPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93CE91632B993D9600D8C49B /* CrimsonPro.ttf */; };
+		93D5705F2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93D5705D2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld */; };
+		93D570622C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */; };
+		93D570632C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */; };
+		93D570662C0E9B5600A0815A /* StoredDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D570652C0E9B5600A0815A /* StoredDataManager.swift */; };
 		93E35E042B8594F9008E939A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E032B8594F9008E939A /* AppDelegate.swift */; };
 		93E35E062B8594F9008E939A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E052B8594F9008E939A /* SceneDelegate.swift */; };
 		93E35E082B8594F9008E939A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E072B8594F9008E939A /* HomeVC.swift */; };
@@ -41,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931E94A52C07AC70008500A3 /* BookVersionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVersionButton.swift; sourceTree = "<group>"; };
 		9323EAF32BAA4C5D00FB8AB9 /* ThemeOTDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOTDModel.swift; sourceTree = "<group>"; };
 		9323EAF52BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOTDFetchManager.swift; sourceTree = "<group>"; };
 		9323EAF82BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchYoutubeAttributes.swift; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		938447272BCF2F30007C6591 /* MiscView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscView.swift; sourceTree = "<group>"; };
 		9388735A2BBB5D2500D3BDE3 /* FaithPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithPathView.swift; sourceTree = "<group>"; };
 		939E32B12BD1CD1800E46C9D /* PrayerReqButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerReqButton.swift; sourceTree = "<group>"; };
+		93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSelectVC.swift; sourceTree = "<group>"; };
+		93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTableCell.swift; sourceTree = "<group>"; };
 		93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemCell.swift; sourceTree = "<group>"; };
 		93BB990B2BEC296500D93E59 /* ScriptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureVC.swift; sourceTree = "<group>"; };
 		93BB990D2BEC297D00D93E59 /* ScriptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureView.swift; sourceTree = "<group>"; };
@@ -58,6 +68,10 @@
 		93CE91552B99096600D8C49B /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
 		93CE91632B993D9600D8C49B /* CrimsonPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CrimsonPro.ttf; sourceTree = "<group>"; };
 		93CE91662B9945A600D8C49B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		93D5705E2C0E7CA700A0815A /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleVersion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleVersion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		93D570652C0E9B5600A0815A /* StoredDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredDataManager.swift; sourceTree = "<group>"; };
 		93E35E002B8594F9008E939A /* Praise Path.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Praise Path.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E35E032B8594F9008E939A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E35E052B8594F9008E939A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,14 +159,46 @@
 			path = VerseOTD;
 			sourceTree = "<group>";
 		};
+		93AAD2302C07F21F00BF21A5 /* Home Tab */ = {
+			isa = PBXGroup;
+			children = (
+				93E35E072B8594F9008E939A /* HomeVC.swift */,
+			);
+			path = "Home Tab";
+			sourceTree = "<group>";
+		};
+		93AAD2312C07F22B00BF21A5 /* Bible Tab */ = {
+			isa = PBXGroup;
+			children = (
+				93FC79B62BD5CA0400FA0853 /* BibleBooksVC.swift */,
+				93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */,
+				93BB990B2BEC296500D93E59 /* ScriptureVC.swift */,
+			);
+			path = "Bible Tab";
+			sourceTree = "<group>";
+		};
 		93BB990A2BE9A1D400D93E59 /* BibleViews */ = {
 			isa = PBXGroup;
 			children = (
 				93FC79B92BD86DC600FA0853 /* BibleBooksView.swift */,
+				931E94A52C07AC70008500A3 /* BookVersionButton.swift */,
 				93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */,
+				93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */,
 				93BB990D2BEC297D00D93E59 /* ScriptureView.swift */,
 			);
 			path = BibleViews;
+			sourceTree = "<group>";
+		};
+		93D570642C0E7D6300A0815A /* CoreData & Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				93D5705D2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld */,
+				93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */,
+				93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */,
+				93D570652C0E9B5600A0815A /* StoredDataManager.swift */,
+			);
+			name = "CoreData & Persistence";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		93E35DF72B8594F9008E939A = {
@@ -174,6 +220,7 @@
 		93E35E022B8594F9008E939A /* Praise Path */ = {
 			isa = PBXGroup;
 			children = (
+				93D570642C0E7D6300A0815A /* CoreData & Persistence */,
 				93E35E1B2B85961E008E939A /* DesignManager.swift */,
 				93E35E182B859591008E939A /* Model */,
 				93E35E192B859598008E939A /* View */,
@@ -211,9 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				9373FDCC2BD2D5E900F4451E /* TabBar.swift */,
-				93E35E072B8594F9008E939A /* HomeVC.swift */,
-				93FC79B62BD5CA0400FA0853 /* BibleBooksVC.swift */,
-				93BB990B2BEC296500D93E59 /* ScriptureVC.swift */,
+				93AAD2302C07F21F00BF21A5 /* Home Tab */,
+				93AAD2312C07F22B00BF21A5 /* Bible Tab */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +354,9 @@
 				9388735B2BBB5D2500D3BDE3 /* FaithPathView.swift in Sources */,
 				93E35E082B8594F9008E939A /* HomeVC.swift in Sources */,
 				93FC79BA2BD86DC600FA0853 /* BibleBooksView.swift in Sources */,
+				93D570632C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift in Sources */,
+				93AAD2352C091C9300BF21A5 /* VersionTableCell.swift in Sources */,
+				93D570622C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift in Sources */,
 				93CE91562B99096600D8C49B /* CustomScrollView.swift in Sources */,
 				93F896422BA00D9B00728FEE /* ThemeOTDView.swift in Sources */,
 				9323EAF42BAA4C5D00FB8AB9 /* ThemeOTDModel.swift in Sources */,
@@ -316,6 +365,7 @@
 				93F8963E2B9BEB5000728FEE /* VerseOTDModel.swift in Sources */,
 				937E2B172BBCAF0700EFC8B3 /* OctagonButton.swift in Sources */,
 				9323EAF92BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift in Sources */,
+				93AAD2332C07F25F00BF21A5 /* VersionSelectVC.swift in Sources */,
 				9323EAFB2BAFA9A900FB8AB9 /* YoutubePlayer.swift in Sources */,
 				93BB990C2BEC296500D93E59 /* ScriptureVC.swift in Sources */,
 				93F896442BA74C8600728FEE /* ThemeOTDStackView.swift in Sources */,
@@ -325,10 +375,13 @@
 				9376A6282BC4A00200413733 /* PathwayView.swift in Sources */,
 				93E35E062B8594F9008E939A /* SceneDelegate.swift in Sources */,
 				9323EAF62BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift in Sources */,
+				93D570662C0E9B5600A0815A /* StoredDataManager.swift in Sources */,
 				93F896462BA7530300728FEE /* ThemeOTDItemView.swift in Sources */,
+				93D5705F2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld in Sources */,
 				939E32B22BD1CD1800E46C9D /* PrayerReqButton.swift in Sources */,
 				93E35E1E2B859845008E939A /* HomeView.swift in Sources */,
 				93E35E1C2B85961E008E939A /* DesignManager.swift in Sources */,
+				931E94A62C07AC70008500A3 /* BookVersionButton.swift in Sources */,
 				93FC79B72BD5CA0400FA0853 /* BibleBooksVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -553,6 +606,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93D5705D2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93D5705E2C0E7CA700A0815A /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 93D5705E2C0E7CA700A0815A /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 93E35DF82B8594F9008E939A /* Project object */;
 }

@@ -12,6 +12,7 @@ class VerseOTDView: UIView {
 	
 	//MARK: - Declarations
 	
+	//Label that holds the title for the VerseOTD Section
 	lazy var verseSectionLabel: UILabel = {
 		
 		let label = UILabel()
@@ -23,6 +24,7 @@ class VerseOTDView: UIView {
 		return label
 	}()
 	
+	//This is the border for the VerseOTD Container
 	lazy var containerBorder: UIView = {
 		
 		let view = UIView()
@@ -36,7 +38,7 @@ class VerseOTDView: UIView {
 		
 	}()
 	
-	
+	//containerView UIView to hold the content for the VerseOTDView
 	lazy var containerView: UIView = {
 		
 		let view = UIView()
@@ -48,7 +50,7 @@ class VerseOTDView: UIView {
 		return view
 	}()
 	
-	
+	//The ImageView for the Christian Image background for the VerseOTDView
 	lazy var christianImage: UIImageView = {
 		
 		let image = UIImageView()
@@ -65,7 +67,7 @@ class VerseOTDView: UIView {
 		return image
 	}()
 	
-	
+	//Overlay to tint down the image to a slightly darker shade
 	lazy var imageOverlay: UIView = {
 		
 		let view = UIView()
@@ -76,11 +78,11 @@ class VerseOTDView: UIView {
 		return view
 	}()
 	
+	//The verse reference is the Book, Chapter and Verse number
 	lazy var verseReference: UILabel = {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.text = ""
 		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.65)
 		label.font = DesignManager.shared.appFontSemiBold?.withSize(14)
 		
@@ -88,6 +90,7 @@ class VerseOTDView: UIView {
 		
 	}()
 	
+	//This is the Label to hold the actual verse
 	lazy var bibleVerse: UILabel = {
 		
 		let label = UILabel()

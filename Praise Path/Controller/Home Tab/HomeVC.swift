@@ -11,7 +11,7 @@ import Combine
 class HomeVC: UIViewController {
 	
 	//MARK: - Declarations
-		
+	
 	let homeView = HomeView()
 	
 	let verseOTDManager = VerseOTDFetchManager()
@@ -31,7 +31,6 @@ class HomeVC: UIViewController {
 	}
 	
 	//MARK: - View Controller Functions
-	
 	
 	//This function handles the fetch and passing of the ThemeOTD data
 	func themeOTDHandler() {

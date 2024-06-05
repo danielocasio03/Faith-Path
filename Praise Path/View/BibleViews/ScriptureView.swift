@@ -19,7 +19,10 @@ class ScriptureView: UIView {
 		textView.translatesAutoresizingMaskIntoConstraints = false
 		textView.isEditable = false
 		textView.isScrollEnabled = true
-		textView.font = UIFont.systemFont(ofSize: 18)
+		textView.font = DesignManager.shared.appFontMedium!.withSize(18)
+		textView.textColor = DesignManager.shared.systemWhite
+		textView.textAlignment = .justified
+		textView.textContainer.lineBreakMode = .byWordWrapping
 		textView.backgroundColor = .clear
 		textView.text = """
 1In the beginning God created the heavens and the earth. 2Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.

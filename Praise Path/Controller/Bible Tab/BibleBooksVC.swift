@@ -14,15 +14,29 @@ class BibleBooksVC: UIViewController {
 		
 	let searchController = UISearchController(searchResultsController: nil)
 	
+	//Adding in the view
 	let bibleBooksView = BibleBooksView()
 	
+	let storedDataManager = StoredDataManager()
 	
+	lazy var savedVersions: [BibleVersion] = []
+	
+	//Create Version Button
+	lazy var versionSelectButton: BookVersionButton = {
+		//Get the current selected bible version and create the BookVersionButton with its abbreviation
+		let selectedAbbreviation = savedVersions.first(where: {$0.isSelected})?.abbreviation
+		let button = BookVersionButton(version: selectedAbbreviation!)
+			return button
+		
+		
+	}()
 	
 	//MARK: - Override func
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
+		fetchBibleVersions()
 		setupView()
 		setupCollectionView()
 		setupSearch()
@@ -32,32 +46,65 @@ class BibleBooksVC: UIViewController {
 	
 	//MARK: - Setup Functions
 	
+	func fetchBibleVersions() {
+		
+		savedVersions = storedDataManager.fetchBibleVersions()
+		
+	}
+	
 	//Function for general setup of the view
 	func setupView() {
-		
 		self.view.addSubview(bibleBooksView)
 		
-		//Version Button: Create and add to Navbar
-		let versionButton = BookVersionButton(version: "NKJV")
-		let barButtonItem = UIBarButtonItem(customView: versionButton)
-		navigationItem.rightBarButtonItem = barButtonItem
-		versionButton.addTarget(self, action: #selector(versionButtonTapped), for: .touchUpInside)
-		
+		//Version Button: Add the versionSelectButton to the NavBar
+			let barButtonItem = UIBarButtonItem(customView: versionSelectButton)
+			navigationItem.rightBarButtonItem = barButtonItem
+		//Add action to the button making it to where when tapped the versionButtonTapped function is called
+			versionSelectButton.addTarget(self, action: #selector(versionButtonTapped), for: .touchUpInside)
+
 		NSLayoutConstraint.activate([
-		
 			bibleBooksView.topAnchor.constraint(equalTo: self.view.topAnchor),
 			bibleBooksView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
 			bibleBooksView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
 			bibleBooksView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
-
 		])
 	}
 	
-	//Action function for the Version Button
+	//Action function for the Version Button; called when the button is tapped
 	@objc func versionButtonTapped() {
+		// Create the VersionSelectVC passing in the savedVersions Array
+		let versionSelectVC = VersionSelectVC()
+		versionSelectVC.savedVersions = savedVersions
+		//Define the passNewVersion variable from versionSelectVC, allowing us to call back the selected index. Then passed to the helper function to update the view and save context
+		versionSelectVC.passNewVersion = { [weak self] index in
+			guard let safeSelf = self else {return}
+			safeSelf.handleVersionUpdate(index: index)
+		}
 		
-		print("button tapped")
+		//present versionSelectVC
+		self.present(versionSelectVC, animated: true)
 	}
+	
+	
+	//Helper function that takes the index of the newly selected version
+	func handleVersionUpdate(index: Int) {
+		
+		//Use the passed in index to update the versionSelectButton label with the selected bibleVersion
+		versionSelectButton.setupButton(version: savedVersions[index].abbreviation!)
+		//Finds the item that was previously selected and sets its isSelected property to false
+		savedVersions.first(where: {$0.isSelected == true})?.isSelected = false
+		//Using the passed index, set the newly selected version's isSelected property true
+		savedVersions[index].isSelected = true
+		//save context
+		do {
+			try AppDelegate.context.save()
+		} catch {
+			print("Failed to save \(error)")
+		}
+		
+	}
+	
+	
 	
 }
 
@@ -123,7 +170,7 @@ extension BibleBooksVC: UICollectionViewDelegate, UICollectionViewDataSource {
 }
 
 //MARK: - SearchBarController
-
+//Extension for the SearchController displayed in the NavBar
 extension BibleBooksVC: UISearchResultsUpdating {
 	
 	//updateSearchfor

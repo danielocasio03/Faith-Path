@@ -18,24 +18,24 @@ class BookVersionButton: UIButton {
 		
 	}
 	
+	//Setup the visuals and configuration for the button; taking in a version name parameter to represent the current selected Bible Version
 	func setupButton(version: String) {
 		
 		translatesAutoresizingMaskIntoConstraints = false
 		//Setup of the buttons appearance
-		var buttonConfig = UIButton.Configuration.filled()
+		var buttonConfig = UIButton.Configuration.plain()
 		//Button Text
 		var attributedText = AttributedString(version)
 		attributedText.font = DesignManager.shared.appFontSemiBold?.withSize(16)
 		attributedText.foregroundColor = UIColor.systemGray
 		buttonConfig.attributedTitle = attributedText
 		//Button Background
-		buttonConfig.baseBackgroundColor = DesignManager.shared.grayBlack
+		buttonConfig.background.visualEffect = UIBlurEffect(style: .systemUltraThinMaterialDark)
 		buttonConfig.cornerStyle = .large
-		buttonConfig.contentInsets = NSDirectionalEdgeInsets(top: 8, leading: 20, bottom: 8, trailing: 20)
+		buttonConfig.contentInsets = NSDirectionalEdgeInsets(top: 8, leading: 25, bottom: 8, trailing: 25)
 		//apply configuration
 		self.configuration = buttonConfig
 
-		
 	}
 	
 	required init?(coder: NSCoder) {
@@ -44,3 +44,4 @@ class BookVersionButton: UIButton {
 	
 	
 }
+

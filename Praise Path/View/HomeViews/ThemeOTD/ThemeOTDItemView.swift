@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+
 //ThemeOTDItemView is represents each item in the themeOTD stack
 class ThemeOTDItemView: UIView {
 	
