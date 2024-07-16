@@ -18,7 +18,6 @@ class BookItemCell: UICollectionViewCell {
 		let bookImage = UIImageView()
 		bookImage.translatesAutoresizingMaskIntoConstraints = false
 		bookImage.contentMode = .scaleAspectFill
-		bookImage.image = UIImage(named: "Genesis")
 		bookImage.layer.cornerRadius = 10
 		bookImage.clipsToBounds = true
 		
@@ -32,7 +31,6 @@ class BookItemCell: UICollectionViewCell {
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.font = DesignManager.shared.appFontMedium?.withSize(12)
 		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.75)
-		label.text = "Genesis"
 		return label
 	}()
 	

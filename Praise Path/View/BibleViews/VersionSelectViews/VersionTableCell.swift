@@ -18,12 +18,12 @@ class VersionTableCell: UITableViewCell {
 		let view = UIView()
 		view.translatesAutoresizingMaskIntoConstraints = false
 		view.backgroundColor = DesignManager.shared.darkItemColor
-		view.layer.cornerRadius = 8
+		view.layer.cornerRadius = 7
 		// Add shadow to contentContainer
 		view.layer.shadowColor = UIColor.black.cgColor
-		view.layer.shadowOpacity = 0.4
+		view.layer.shadowOpacity = 0.5
 		view.layer.shadowOffset = CGSize(width: 0, height: 1 )
-		view.layer.shadowRadius = 5
+		view.layer.shadowRadius = 3
 		view.layer.masksToBounds = false
 		
 		return view
