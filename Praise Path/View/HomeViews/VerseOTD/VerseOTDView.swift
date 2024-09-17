@@ -95,7 +95,6 @@ class VerseOTDView: UIView {
 		
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
-		label.text = ""
 		label.textColor = DesignManager.shared.systemWhite.withAlphaComponent(0.75)
 		label.font = DesignManager.shared.appFontSemiBold?.withSize(15)
 		label.numberOfLines = 100

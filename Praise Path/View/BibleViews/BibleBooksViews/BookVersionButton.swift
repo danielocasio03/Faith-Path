@@ -11,15 +11,15 @@ import UIKit
 class BookVersionButton: UIButton {
 	
 	//Init - Takes a version string so that upon creation the users currently set version will be set as the label
-	init(version: String) {
+	init(version: String, with color: UIColor) {
 		super.init(frame: .zero)
 		
-		setupButton(version: version)
+		setupButton(version: version, with: color)
 		
 	}
 	
 	//Setup the visuals and configuration for the button; taking in a version name parameter to represent the current selected Bible Version
-	func setupButton(version: String) {
+	func setupButton(version: String, with color: UIColor) {
 		
 		translatesAutoresizingMaskIntoConstraints = false
 		//Setup of the buttons appearance
@@ -27,7 +27,7 @@ class BookVersionButton: UIButton {
 		//Button Text
 		var attributedText = AttributedString(version)
 		attributedText.font = DesignManager.shared.appFontSemiBold?.withSize(16)
-		attributedText.foregroundColor = UIColor.systemGray
+		attributedText.foregroundColor = color
 		buttonConfig.attributedTitle = attributedText
 		//Button Background
 		buttonConfig.background.visualEffect = UIBlurEffect(style: .systemUltraThinMaterialDark)

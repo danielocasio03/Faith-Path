@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9308468D2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308468C2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift */; };
 		931E94A62C07AC70008500A3 /* BookVersionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E94A52C07AC70008500A3 /* BookVersionButton.swift */; };
 		9323EAF42BAA4C5D00FB8AB9 /* ThemeOTDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF32BAA4C5D00FB8AB9 /* ThemeOTDModel.swift */; };
 		9323EAF62BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF52BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift */; };
 		9323EAF92BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF82BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift */; };
 		9323EAFB2BAFA9A900FB8AB9 /* YoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAFA2BAFA9A900FB8AB9 /* YoutubePlayer.swift */; };
+		933531C32C17A7DC000E5FC9 /* BibleBooksModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933531C22C17A7DC000E5FC9 /* BibleBooksModels.swift */; };
+		933531C52C17A8F4000E5FC9 /* BibleBooksFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933531C42C17A8F4000E5FC9 /* BibleBooksFetchManager.swift */; };
+		933531C72C17C8E1000E5FC9 /* ChapterSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933531C62C17C8E1000E5FC9 /* ChapterSelectVC.swift */; };
+		933531C92C17D068000E5FC9 /* ChapterItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933531C82C17D068000E5FC9 /* ChapterItemCell.swift */; };
+		9350F0452C61899100046FE9 /* ThemeObjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350F0442C61899100046FE9 /* ThemeObjectCell.swift */; };
 		9373FDCD2BD2D5E900F4451E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9373FDCC2BD2D5E900F4451E /* TabBar.swift */; };
 		9376A6282BC4A00200413733 /* PathwayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376A6272BC4A00200413733 /* PathwayView.swift */; };
 		937E2B172BBCAF0700EFC8B3 /* OctagonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E2B162BBCAF0700EFC8B3 /* OctagonButton.swift */; };
+		9381BA912C4738CB00E9DDB0 /* FontFaceSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381BA902C4738CB00E9DDB0 /* FontFaceSelectButton.swift */; };
 		938447282BCF2F30007C6591 /* MiscView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938447272BCF2F30007C6591 /* MiscView.swift */; };
 		9388735B2BBB5D2500D3BDE3 /* FaithPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388735A2BBB5D2500D3BDE3 /* FaithPathView.swift */; };
+		938DF9B82C4096FA00B52405 /* PreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938DF9B72C4096FA00B52405 /* PreferencesVC.swift */; };
 		939E32B22BD1CD1800E46C9D /* PrayerReqButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E32B12BD1CD1800E46C9D /* PrayerReqButton.swift */; };
 		93AAD2332C07F25F00BF21A5 /* VersionSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */; };
 		93AAD2352C091C9300BF21A5 /* VersionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */; };
+		93B4FF0A2C74196B00614DEE /* BGNoiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4FF092C74196B00614DEE /* BGNoiseButton.swift */; };
+		93B4FF102C757A4800614DEE /* CrimsonPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93B4FF0F2C757A4800614DEE /* CrimsonPro.ttf */; };
 		93BB99072BE5A2DE00D93E59 /* BookItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */; };
 		93BB990C2BEC296500D93E59 /* ScriptureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB990B2BEC296500D93E59 /* ScriptureVC.swift */; };
 		93BB990E2BEC297D00D93E59 /* ScriptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BB990D2BEC297D00D93E59 /* ScriptureView.swift */; };
+		93CA308B2C814CF80022671B /* NewYork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93CA308A2C814CF80022671B /* NewYork.ttf */; };
 		93CE91542B98EEB800D8C49B /* VerseOTDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE91532B98EEB800D8C49B /* VerseOTDView.swift */; };
 		93CE91562B99096600D8C49B /* CustomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CE91552B99096600D8C49B /* CustomScrollView.swift */; };
-		93CE91642B993D9600D8C49B /* CrimsonPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93CE91632B993D9600D8C49B /* CrimsonPro.ttf */; };
 		93D5705F2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93D5705D2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld */; };
 		93D570622C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */; };
 		93D570632C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */; };
@@ -33,11 +43,15 @@
 		93E35E042B8594F9008E939A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E032B8594F9008E939A /* AppDelegate.swift */; };
 		93E35E062B8594F9008E939A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E052B8594F9008E939A /* SceneDelegate.swift */; };
 		93E35E082B8594F9008E939A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E072B8594F9008E939A /* HomeVC.swift */; };
-		93E35E0B2B8594F9008E939A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E35E092B8594F9008E939A /* Main.storyboard */; };
 		93E35E0D2B8594FB008E939A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E35E0C2B8594FB008E939A /* Assets.xcassets */; };
 		93E35E102B8594FB008E939A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E35E0E2B8594FB008E939A /* LaunchScreen.storyboard */; };
 		93E35E1C2B85961E008E939A /* DesignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E1B2B85961E008E939A /* DesignManager.swift */; };
 		93E35E1E2B859845008E939A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E35E1D2B859845008E939A /* HomeView.swift */; };
+		93E5D5A42C1BC5C700B1A0EB /* ScriptureLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E5D5A32C1BC5C700B1A0EB /* ScriptureLoaderView.swift */; };
+		93E5D5A62C221C6700B1A0EB /* ScriptureCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 93E5D5A52C221C6700B1A0EB /* ScriptureCSS.css */; };
+		93F027B72C2CC7AE009F3C70 /* ScriptureNavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F027B62C2CC7AE009F3C70 /* ScriptureNavButton.swift */; };
+		93F252582C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F252562C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataClass.swift */; };
+		93F252592C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F252572C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataProperties.swift */; };
 		93F8963E2B9BEB5000728FEE /* VerseOTDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8963D2B9BEB5000728FEE /* VerseOTDModel.swift */; };
 		93F896402B9BEC6200728FEE /* VerseOTDFetchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8963F2B9BEC6200728FEE /* VerseOTDFetchManager.swift */; };
 		93F896422BA00D9B00728FEE /* ThemeOTDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F896412BA00D9A00728FEE /* ThemeOTDView.swift */; };
@@ -48,26 +62,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9308468C2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectorCarousel.swift; sourceTree = "<group>"; };
 		931E94A52C07AC70008500A3 /* BookVersionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVersionButton.swift; sourceTree = "<group>"; };
 		9323EAF32BAA4C5D00FB8AB9 /* ThemeOTDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOTDModel.swift; sourceTree = "<group>"; };
 		9323EAF52BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOTDFetchManager.swift; sourceTree = "<group>"; };
 		9323EAF82BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchYoutubeAttributes.swift; sourceTree = "<group>"; };
 		9323EAFA2BAFA9A900FB8AB9 /* YoutubePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubePlayer.swift; sourceTree = "<group>"; };
+		933531C22C17A7DC000E5FC9 /* BibleBooksModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleBooksModels.swift; sourceTree = "<group>"; };
+		933531C42C17A8F4000E5FC9 /* BibleBooksFetchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleBooksFetchManager.swift; sourceTree = "<group>"; };
+		933531C62C17C8E1000E5FC9 /* ChapterSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSelectVC.swift; sourceTree = "<group>"; };
+		933531C82C17D068000E5FC9 /* ChapterItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterItemCell.swift; sourceTree = "<group>"; };
+		9350F0442C61899100046FE9 /* ThemeObjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeObjectCell.swift; sourceTree = "<group>"; };
 		9373FDCC2BD2D5E900F4451E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		9376A6272BC4A00200413733 /* PathwayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayView.swift; sourceTree = "<group>"; };
 		937E2B162BBCAF0700EFC8B3 /* OctagonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctagonButton.swift; sourceTree = "<group>"; };
+		9381BA902C4738CB00E9DDB0 /* FontFaceSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFaceSelectButton.swift; sourceTree = "<group>"; };
 		938447272BCF2F30007C6591 /* MiscView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscView.swift; sourceTree = "<group>"; };
 		9388735A2BBB5D2500D3BDE3 /* FaithPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithPathView.swift; sourceTree = "<group>"; };
+		938DF9B72C4096FA00B52405 /* PreferencesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesVC.swift; sourceTree = "<group>"; };
 		939E32B12BD1CD1800E46C9D /* PrayerReqButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerReqButton.swift; sourceTree = "<group>"; };
 		93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSelectVC.swift; sourceTree = "<group>"; };
 		93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTableCell.swift; sourceTree = "<group>"; };
+		93B4FF092C74196B00614DEE /* BGNoiseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGNoiseButton.swift; sourceTree = "<group>"; };
+		93B4FF0F2C757A4800614DEE /* CrimsonPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CrimsonPro.ttf; sourceTree = "<group>"; };
 		93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemCell.swift; sourceTree = "<group>"; };
 		93BB990B2BEC296500D93E59 /* ScriptureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureVC.swift; sourceTree = "<group>"; };
 		93BB990D2BEC297D00D93E59 /* ScriptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureView.swift; sourceTree = "<group>"; };
+		93CA308A2C814CF80022671B /* NewYork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYork.ttf; sourceTree = "<group>"; };
 		93CE91532B98EEB800D8C49B /* VerseOTDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseOTDView.swift; sourceTree = "<group>"; };
 		93CE91552B99096600D8C49B /* CustomScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScrollView.swift; sourceTree = "<group>"; };
-		93CE91632B993D9600D8C49B /* CrimsonPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CrimsonPro.ttf; sourceTree = "<group>"; };
-		93CE91662B9945A600D8C49B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		93D5705E2C0E7CA700A0815A /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 		93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleVersion+CoreDataClass.swift"; sourceTree = "<group>"; };
 		93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BibleVersion+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -76,12 +99,16 @@
 		93E35E032B8594F9008E939A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E35E052B8594F9008E939A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		93E35E072B8594F9008E939A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		93E35E0A2B8594F9008E939A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93E35E0C2B8594FB008E939A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93E35E0F2B8594FB008E939A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93E35E112B8594FB008E939A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "App Delegates/Info.plist"; sourceTree = "<group>"; };
 		93E35E1B2B85961E008E939A /* DesignManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignManager.swift; sourceTree = "<group>"; };
 		93E35E1D2B859845008E939A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93E5D5A32C1BC5C700B1A0EB /* ScriptureLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureLoaderView.swift; sourceTree = "<group>"; };
+		93E5D5A52C221C6700B1A0EB /* ScriptureCSS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ScriptureCSS.css; sourceTree = "<group>"; };
+		93F027B62C2CC7AE009F3C70 /* ScriptureNavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptureNavButton.swift; sourceTree = "<group>"; };
+		93F252562C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScripturePreferences+CoreDataClass.swift"; sourceTree = "<group>"; };
+		93F252572C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScripturePreferences+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		93F8963D2B9BEB5000728FEE /* VerseOTDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseOTDModel.swift; sourceTree = "<group>"; };
 		93F8963F2B9BEC6200728FEE /* VerseOTDFetchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseOTDFetchManager.swift; sourceTree = "<group>"; };
 		93F896412BA00D9A00728FEE /* ThemeOTDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOTDView.swift; sourceTree = "<group>"; };
@@ -130,6 +157,17 @@
 			path = MiscViews;
 			sourceTree = "<group>";
 		};
+		9381BA922C4738D900E9DDB0 /* PreferencesViews */ = {
+			isa = PBXGroup;
+			children = (
+				9381BA902C4738CB00E9DDB0 /* FontFaceSelectButton.swift */,
+				9350F0442C61899100046FE9 /* ThemeObjectCell.swift */,
+				9308468C2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift */,
+				93B4FF092C74196B00614DEE /* BGNoiseButton.swift */,
+			);
+			path = PreferencesViews;
+			sourceTree = "<group>";
+		};
 		9388735C2BBB5D3200D3BDE3 /* FaithPathway */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,19 +210,31 @@
 			children = (
 				93FC79B62BD5CA0400FA0853 /* BibleBooksVC.swift */,
 				93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */,
+				933531C62C17C8E1000E5FC9 /* ChapterSelectVC.swift */,
 				93BB990B2BEC296500D93E59 /* ScriptureVC.swift */,
+				938DF9B72C4096FA00B52405 /* PreferencesVC.swift */,
 			);
 			path = "Bible Tab";
+			sourceTree = "<group>";
+		};
+		93B4FF0E2C757A1700614DEE /* Design and Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93CA308A2C814CF80022671B /* NewYork.ttf */,
+				93B4FF0F2C757A4800614DEE /* CrimsonPro.ttf */,
+				93E35E1B2B85961E008E939A /* DesignManager.swift */,
+			);
+			path = "Design and Fonts";
 			sourceTree = "<group>";
 		};
 		93BB990A2BE9A1D400D93E59 /* BibleViews */ = {
 			isa = PBXGroup;
 			children = (
-				93FC79B92BD86DC600FA0853 /* BibleBooksView.swift */,
-				931E94A52C07AC70008500A3 /* BookVersionButton.swift */,
-				93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */,
-				93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */,
-				93BB990D2BEC297D00D93E59 /* ScriptureView.swift */,
+				93E5D59F2C1BC54300B1A0EB /* BibleBooksViews */,
+				93E5D5A02C1BC55800B1A0EB /* VersionSelectViews */,
+				93E5D5A12C1BC56600B1A0EB /* ChapterSelectViews */,
+				93E5D5A22C1BC57000B1A0EB /* ScriptureViews */,
+				9381BA922C4738D900E9DDB0 /* PreferencesViews */,
 			);
 			path = BibleViews;
 			sourceTree = "<group>";
@@ -193,9 +243,9 @@
 			isa = PBXGroup;
 			children = (
 				93D5705D2C0E7CA700A0815A /* CoreDataModel.xcdatamodeld */,
-				93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */,
-				93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */,
 				93D570652C0E9B5600A0815A /* StoredDataManager.swift */,
+				93F2525A2C7D4E5F001AF5F3 /* BibleVersion */,
+				93F2525B2C7D4E76001AF5F3 /* ScripturePreferences */,
 			);
 			name = "CoreData & Persistence";
 			path = ..;
@@ -220,8 +270,9 @@
 		93E35E022B8594F9008E939A /* Praise Path */ = {
 			isa = PBXGroup;
 			children = (
+				93E5D5A52C221C6700B1A0EB /* ScriptureCSS.css */,
+				93B4FF0E2C757A1700614DEE /* Design and Fonts */,
 				93D570642C0E7D6300A0815A /* CoreData & Persistence */,
-				93E35E1B2B85961E008E939A /* DesignManager.swift */,
 				93E35E182B859591008E939A /* Model */,
 				93E35E192B859598008E939A /* View */,
 				93E35E1A2B8595A1008E939A /* Controller */,
@@ -229,9 +280,7 @@
 				93E35E052B8594F9008E939A /* SceneDelegate.swift */,
 				93E35E112B8594FB008E939A /* Info.plist */,
 				93E35E0C2B8594FB008E939A /* Assets.xcassets */,
-				93CE91632B993D9600D8C49B /* CrimsonPro.ttf */,
 				93E35E0E2B8594FB008E939A /* LaunchScreen.storyboard */,
-				93E35E092B8594F9008E939A /* Main.storyboard */,
 			);
 			path = "Praise Path";
 			sourceTree = "<group>";
@@ -241,6 +290,8 @@
 			children = (
 				9323EAF22BAA49CE00FB8AB9 /* VerseOTD */,
 				9323EAF72BAA4DCF00FB8AB9 /* ThemeOTD */,
+				933531C22C17A7DC000E5FC9 /* BibleBooksModels.swift */,
+				933531C42C17A8F4000E5FC9 /* BibleBooksFetchManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +313,60 @@
 				93AAD2312C07F22B00BF21A5 /* Bible Tab */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		93E5D59F2C1BC54300B1A0EB /* BibleBooksViews */ = {
+			isa = PBXGroup;
+			children = (
+				93FC79B92BD86DC600FA0853 /* BibleBooksView.swift */,
+				931E94A52C07AC70008500A3 /* BookVersionButton.swift */,
+				93BB99062BE5A2DE00D93E59 /* BookItemCell.swift */,
+			);
+			path = BibleBooksViews;
+			sourceTree = "<group>";
+		};
+		93E5D5A02C1BC55800B1A0EB /* VersionSelectViews */ = {
+			isa = PBXGroup;
+			children = (
+				93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */,
+			);
+			path = VersionSelectViews;
+			sourceTree = "<group>";
+		};
+		93E5D5A12C1BC56600B1A0EB /* ChapterSelectViews */ = {
+			isa = PBXGroup;
+			children = (
+				933531C82C17D068000E5FC9 /* ChapterItemCell.swift */,
+			);
+			path = ChapterSelectViews;
+			sourceTree = "<group>";
+		};
+		93E5D5A22C1BC57000B1A0EB /* ScriptureViews */ = {
+			isa = PBXGroup;
+			children = (
+				93BB990D2BEC297D00D93E59 /* ScriptureView.swift */,
+				93E5D5A32C1BC5C700B1A0EB /* ScriptureLoaderView.swift */,
+				93F027B62C2CC7AE009F3C70 /* ScriptureNavButton.swift */,
+			);
+			path = ScriptureViews;
+			sourceTree = "<group>";
+		};
+		93F2525A2C7D4E5F001AF5F3 /* BibleVersion */ = {
+			isa = PBXGroup;
+			children = (
+				93D570602C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift */,
+				93D570612C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift */,
+			);
+			path = BibleVersion;
+			sourceTree = "<group>";
+		};
+		93F2525B2C7D4E76001AF5F3 /* ScripturePreferences */ = {
+			isa = PBXGroup;
+			children = (
+				93F252562C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataClass.swift */,
+				93F252572C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataProperties.swift */,
+			);
+			path = ScripturePreferences;
 			sourceTree = "<group>";
 		};
 		93FC79B82BD5CA2A00FA0853 /* HomeViews */ = {
@@ -313,7 +418,7 @@
 				};
 			};
 			buildConfigurationList = 93E35DFB2B8594F9008E939A /* Build configuration list for PBXProject "Praise Path" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -337,8 +442,9 @@
 			files = (
 				93E35E102B8594FB008E939A /* LaunchScreen.storyboard in Resources */,
 				93E35E0D2B8594FB008E939A /* Assets.xcassets in Resources */,
-				93CE91642B993D9600D8C49B /* CrimsonPro.ttf in Resources */,
-				93E35E0B2B8594F9008E939A /* Main.storyboard in Resources */,
+				93B4FF102C757A4800614DEE /* CrimsonPro.ttf in Resources */,
+				93CA308B2C814CF80022671B /* NewYork.ttf in Resources */,
+				93E5D5A62C221C6700B1A0EB /* ScriptureCSS.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,31 +455,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933531C52C17A8F4000E5FC9 /* BibleBooksFetchManager.swift in Sources */,
 				938447282BCF2F30007C6591 /* MiscView.swift in Sources */,
+				93F252582C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataClass.swift in Sources */,
 				93BB990E2BEC297D00D93E59 /* ScriptureView.swift in Sources */,
 				9388735B2BBB5D2500D3BDE3 /* FaithPathView.swift in Sources */,
+				93F252592C7D4E4F001AF5F3 /* ScripturePreferences+CoreDataProperties.swift in Sources */,
 				93E35E082B8594F9008E939A /* HomeVC.swift in Sources */,
 				93FC79BA2BD86DC600FA0853 /* BibleBooksView.swift in Sources */,
+				93B4FF0A2C74196B00614DEE /* BGNoiseButton.swift in Sources */,
 				93D570632C0E7D2400A0815A /* BibleVersion+CoreDataProperties.swift in Sources */,
 				93AAD2352C091C9300BF21A5 /* VersionTableCell.swift in Sources */,
 				93D570622C0E7D2400A0815A /* BibleVersion+CoreDataClass.swift in Sources */,
 				93CE91562B99096600D8C49B /* CustomScrollView.swift in Sources */,
 				93F896422BA00D9B00728FEE /* ThemeOTDView.swift in Sources */,
+				938DF9B82C4096FA00B52405 /* PreferencesVC.swift in Sources */,
 				9323EAF42BAA4C5D00FB8AB9 /* ThemeOTDModel.swift in Sources */,
+				93E5D5A42C1BC5C700B1A0EB /* ScriptureLoaderView.swift in Sources */,
 				93E35E042B8594F9008E939A /* AppDelegate.swift in Sources */,
 				93F896402B9BEC6200728FEE /* VerseOTDFetchManager.swift in Sources */,
 				93F8963E2B9BEB5000728FEE /* VerseOTDModel.swift in Sources */,
+				9350F0452C61899100046FE9 /* ThemeObjectCell.swift in Sources */,
 				937E2B172BBCAF0700EFC8B3 /* OctagonButton.swift in Sources */,
+				933531C72C17C8E1000E5FC9 /* ChapterSelectVC.swift in Sources */,
 				9323EAF92BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift in Sources */,
 				93AAD2332C07F25F00BF21A5 /* VersionSelectVC.swift in Sources */,
 				9323EAFB2BAFA9A900FB8AB9 /* YoutubePlayer.swift in Sources */,
 				93BB990C2BEC296500D93E59 /* ScriptureVC.swift in Sources */,
+				9381BA912C4738CB00E9DDB0 /* FontFaceSelectButton.swift in Sources */,
 				93F896442BA74C8600728FEE /* ThemeOTDStackView.swift in Sources */,
+				933531C92C17D068000E5FC9 /* ChapterItemCell.swift in Sources */,
 				9373FDCD2BD2D5E900F4451E /* TabBar.swift in Sources */,
 				93BB99072BE5A2DE00D93E59 /* BookItemCell.swift in Sources */,
+				933531C32C17A7DC000E5FC9 /* BibleBooksModels.swift in Sources */,
 				93CE91542B98EEB800D8C49B /* VerseOTDView.swift in Sources */,
 				9376A6282BC4A00200413733 /* PathwayView.swift in Sources */,
+				93F027B72C2CC7AE009F3C70 /* ScriptureNavButton.swift in Sources */,
 				93E35E062B8594F9008E939A /* SceneDelegate.swift in Sources */,
+				9308468D2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift in Sources */,
 				9323EAF62BAA4DC600FB8AB9 /* ThemeOTDFetchManager.swift in Sources */,
 				93D570662C0E9B5600A0815A /* StoredDataManager.swift in Sources */,
 				93F896462BA7530300728FEE /* ThemeOTDItemView.swift in Sources */,
@@ -389,15 +508,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		93E35E092B8594F9008E939A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93E35E0A2B8594F9008E939A /* Base */,
-				93CE91662B9945A600D8C49B /* en */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93E35E0E2B8594FB008E939A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -539,8 +649,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Praise Path/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -567,8 +676,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Praise Path/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (

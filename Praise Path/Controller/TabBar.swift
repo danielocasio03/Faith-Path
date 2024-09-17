@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 class TabBar: UITabBarController {
+	
+	
 		
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -36,7 +38,6 @@ class TabBar: UITabBarController {
 	//Setup Navigation and View Controllers
 	func setupNavBar() {
 		
-		view.translatesAutoresizingMaskIntoConstraints = false
 
 		//MARK: - Home Controller
 		//Create the Home VC and Nav
@@ -50,21 +51,14 @@ class TabBar: UITabBarController {
 		let bibleVC = BibleBooksVC()
 		let bibleNavController = UINavigationController(rootViewController: bibleVC)
 		bibleNavController.tabBarItem = UITabBarItem(title: "Bible", image: UIImage(systemName: "text.book.closed.fill"), tag: 1)
-		// Create a custom nav bar appearance
-		let bibleNavAppearance = UINavigationBarAppearance()
-		bibleNavAppearance.titleTextAttributes = [NSAttributedString.Key.font: DesignManager.shared.appFontMedium!.withSize(20)]
-		bibleNavAppearance.largeTitleTextAttributes = [NSAttributedString.Key.font: DesignManager.shared.appFontSemiBold!, .foregroundColor: DesignManager.shared.systemWhite]
-		bibleNavAppearance.backgroundEffect = UIBlurEffect(style: .dark)
-		// Apply the custom appearance to the navigation bar
-		bibleVC.navigationController?.navigationBar.standardAppearance = bibleNavAppearance
-		bibleVC.navigationController?.navigationBar.compactScrollEdgeAppearance = bibleNavAppearance
-		bibleVC.navigationController?.navigationBar.prefersLargeTitles = true
 		bibleVC.title = "Bible"
 				
 		//Setting the view controllers
 		self.setViewControllers([
+			
 			bibleNavController,
 			homeNavController,
+			
 		], animated: true)
 	}
 	

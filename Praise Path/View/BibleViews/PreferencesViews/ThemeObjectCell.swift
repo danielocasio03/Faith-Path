@@ -1,23 +1,18 @@
-//
-//  ThemeCollectionViewCell.swift
-//  Praise Path
-//
-//  Created by Daniel Efrain Ocasio on 8/5/24.
-//
-
 import UIKit
 
 class ThemeObjectCell: UICollectionViewCell {
 	
-	// MARK: - Declarations
+	// MARK: - UI Elements
 	
+	// Preview image view for the theme
 	private let previewImage: UIImageView = {
-		let image = UIImageView()
-		image.translatesAutoresizingMaskIntoConstraints = false
-		image.contentMode = .scaleAspectFit
-		return image
+		let imageView = UIImageView()
+		imageView.translatesAutoresizingMaskIntoConstraints = false
+		imageView.contentMode = .scaleAspectFit
+		return imageView
 	}()
 	
+	// Label for the theme's title
 	private let themeTitle: UILabel = {
 		let label = UILabel()
 		label.translatesAutoresizingMaskIntoConstraints = false
@@ -27,14 +22,11 @@ class ThemeObjectCell: UICollectionViewCell {
 		return label
 	}()
 	
-	// MARK: - Init
+	// MARK: - Initializers
 	
 	override init(frame: CGRect) {
 		super.init(frame: frame)
-		contentView.addSubview(previewImage)
-		contentView.addSubview(themeTitle)
-		
-		setupConstraints()
+		setupView()
 	}
 	
 	required init?(coder: NSCoder) {
@@ -43,18 +35,27 @@ class ThemeObjectCell: UICollectionViewCell {
 	
 	// MARK: - Setup Functions
 	
-	private func setupConstraints() {
+	// Sets up the cell's view hierarchy and layout constraints
+	private func setupView() {
+		// Adding subviews to the contentView
+		contentView.addSubview(previewImage)
+		contentView.addSubview(themeTitle)
+		
+		// Setting up constraints
 		NSLayoutConstraint.activate([
+			// Center the preview image in the cell
 			previewImage.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
 			previewImage.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
 			previewImage.heightAnchor.constraint(equalTo: contentView.heightAnchor, multiplier: 0.70),
 			previewImage.widthAnchor.constraint(equalTo: contentView.widthAnchor, multiplier: 0.70),
 			
+			// Position the theme title above the preview image
 			themeTitle.bottomAnchor.constraint(equalTo: previewImage.topAnchor, constant: -10),
 			themeTitle.centerXAnchor.constraint(equalTo: previewImage.centerXAnchor),
 		])
 	}
 	
+	// Configures the cell with a theme name, setting the image and title
 	func configure(with themeName: String) {
 		previewImage.image = UIImage(named: themeName)
 		themeTitle.text = themeName

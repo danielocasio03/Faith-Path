@@ -82,96 +82,95 @@ public class DesignManager {
 	//MARK: - Bible Contents
 	
 	// Based off UICollectionView index this dictionary provides the Name for the book
-	public var tableOfContentsDict: [[Int:Int]:String] = [
+	public var tableOfContentsDict: [[Int:Int]: (String, String)] = [
 		// Section 1 of CollectionView
-		[0:0]:"Genesis",
-		[0:1]:"Exodus",
-		[0:2]:"Leviticus",
+		[0:0]:("GEN", "Genesis"),
+		[0:1]:("EXO", "Exodus"),
+		[0:2]:("LEV", "Leviticus"),
 		// Section 2 of CollectionView
-		[1:0]:"Numbers",
-		[1:1]:"Deuteronomy",
-		[1:2]:"Joshua",
+		[1:0]:("NUM", "Numbers"),
+		[1:1]:("DEU", "Deuteronomy"),
+		[1:2]:("JOS", "Joshua"),
 		// Section 3 of CollectionView
-		[2:0]:"Judges",
-		[2:1]:"Ruth",
-		[2:2]:"I Samuel",
+		[2:0]:("JDG", "Judges"),
+		[2:1]:("RUT", "Ruth"),
+		[2:2]:("1SA", "I Samuel"),
 		// Section 4 of CollectionView
-		[3:0]:"II Samuel",
-		[3:1]:"I Kings",
-		[3:2]:"II Kings",
+		[3:0]:("2SA", "II Samuel"),
+		[3:1]:("1KI", "I Kings"),
+		[3:2]:("2KI", "II Kings"),
 		// Section 5 of CollectionView
-		[4:0]:"I Chronicles",
-		[4:1]:"II Chronicles",
-		[4:2]:"Ezra",
+		[4:0]:("1CH", "I Chronicles"),
+		[4:1]:("2CH", "II Chronicles"),
+		[4:2]:("EZR", "Ezra"),
 		// Section 6 of CollectionView
-		[5:0]:"Nehemiah",
-		[5:1]:"Esther",
-		[5:2]:"Job",
+		[5:0]:("NEH", "Nehemiah"),
+		[5:1]:("EST", "Esther"),
+		[5:2]:("JOB", "Job"),
 		// Section 7 of CollectionView
-		[6:0]:"Psalms",
-		[6:1]:"Proverbs",
-		[6:2]:"Ecclesiastes",
+		[6:0]:("PSA", "Psalms"),
+		[6:1]:("PRO", "Proverbs"),
+		[6:2]:("ECC", "Ecclesiastes"),
 		// Section 8 of CollectionView
-		[7:0]:"Song of Solomon",
-		[7:1]:"Isaiah",
-		[7:2]:"Jeremiah",
+		[7:0]:("SNG", "Song of Solomon"),
+		[7:1]:("ISA", "Isaiah"),
+		[7:2]:("JER", "Jeremiah"),
 		// Section 9 of CollectionView
-		[8:0]:"Lamentations",
-		[8:1]:"Ezekiel",
-		[8:2]:"Daniel",
+		[8:0]:("LAM", "Lamentations"),
+		[8:1]:("EZK", "Ezekiel"),
+		[8:2]:("DAN", "Daniel"),
 		// Section 10 of CollectionView
-		[9:0]:"Hosea",
-		[9:1]:"Joel",
-		[9:2]:"Amos",
+		[9:0]:("HOS", "Hosea"),
+		[9:1]:("JOL", "Joel"),
+		[9:2]:("AMO", "Amos"),
 		// Section 11 of CollectionView
-		[10:0]:"Obadiah",
-		[10:1]:"Jonah",
-		[10:2]:"Micah",
+		[10:0]:("OBA", "Obadiah"),
+		[10:1]:("JON", "Jonah"),
+		[10:2]:("MIC", "Micah"),
 		// Section 12 of CollectionView
-		[11:0]:"Nahum",
-		[11:1]:"Habakkuk",
-		[11:2]:"Zephaniah",
+		[11:0]:("NAM", "Nahum"),
+		[11:1]:("HAB", "Habakkuk"),
+		[11:2]:("ZEP", "Zephaniah"),
 		// Section 13 of CollectionView
-		[12:0]:"Haggai",
-		[12:1]:"Zechariah",
-		[12:2]:"Malachi",
+		[12:0]:("HAG", "Haggai"),
+		[12:1]:("ZEC", "Zechariah"),
+		[12:2]:("MAL", "Malachi"),
 		// Section 14 of CollectionView
-		[13:0]:"Matthew",
-		[13:1]:"Mark",
-		[13:2]:"Luke",
+		[13:0]:("MAT", "Matthew"),
+		[13:1]:("MRK", "Mark"),
+		[13:2]:("LUK", "Luke"),
 		// Section 15 of CollectionView
-		[14:0]:"John",
-		[14:1]:"Acts",
-		[14:2]:"Romans",
+		[14:0]:("JHN", "John"),
+		[14:1]:("ACT", "Acts"),
+		[14:2]:("ROM", "Romans"),
 		// Section 16 of CollectionView
-		[15:0]:"1 Corinthians",
-		[15:1]:"2 Corinthians",
-		[15:2]:"Galatians",
+		[15:0]:("1CO", "1 Corinthians"),
+		[15:1]:("2CO", "2 Corinthians"),
+		[15:2]:("GAL", "Galatians"),
 		// Section 17 of CollectionView
-		[16:0]:"Ephesians",
-		[16:1]:"Philippians",
-		[16:2]:"Colossians",
+		[16:0]:("EPH", "Ephesians"),
+		[16:1]:("PHP", "Philippians"),
+		[16:2]:("COL", "Colossians"),
 		// Section 18 of CollectionView
-		[17:0]:"1 Thessalonians",
-		[17:1]:"2 Thessalonians",
-		[17:2]:"1 Timothy",
+		[17:0]:("1TH", "1 Thessalonians"),
+		[17:1]:("2TH", "2 Thessalonians"),
+		[17:2]:("1TI", "1 Timothy"),
 		// Section 19 of CollectionView
-		[18:0]:"2 Timothy",
-		[18:1]:"Titus",
-		[18:2]:"Philemon",
+		[18:0]:("2TI", "2 Timothy"),
+		[18:1]:("TIT", "Titus"),
+		[18:2]:("PHM", "Philemon"),
 		// Section 20 of CollectionView
-		[19:0]:"Hebrews",
-		[19:1]:"James",
-		[19:2]:"1 Peter",
+		[19:0]:("HEB", "Hebrews"),
+		[19:1]:("JAS", "James"),
+		[19:2]:("1PE", "1 Peter"),
 		// Section 21 of CollectionView
-		[20:0]:"2 Peter",
-		[20:1]:"1 John",
-		[20:2]:"2 John",
+		[20:0]:("2PE", "2 Peter"),
+		[20:1]:("1JN", "1 John"),
+		[20:2]:("2JN", "2 John"),
 		// Section 22 of CollectionView
-		[21:0]:"3 John",
-		[21:1]:"Jude",
-		[21:2]:"Revelation",
-		
+		[21:0]:("3JN", "3 John"),
+		[21:1]:("JUD", "Jude"),
+		[21:2]:("REV", "Revelation")
 	]
 	
 	

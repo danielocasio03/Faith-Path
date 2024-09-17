@@ -1,72 +1,64 @@
-//
-//  ThemeSelectorCarousel2.swift
-//  Praise Path
-//
-//  Created by Daniel Efrain Ocasio on 8/13/24.
-//
-
 import UIKit
+
+// MARK: - ThemeSelectorCarousel
 
 class ThemeSelectorCarousel: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 	
-	// MARK: - Declarations
+	// MARK: - Properties
 	
-	private let collectionView: UICollectionView = {
+	// Collection view to display themes
+	private lazy var collectionView: UICollectionView = {
 		let layout = PeekCarouselFlowLayout()
-		
 		let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
 		collectionView.showsHorizontalScrollIndicator = false
 		collectionView.translatesAutoresizingMaskIntoConstraints = false
-		
+		collectionView.backgroundColor = DesignManager.shared.darkItemColor
+		collectionView.layer.cornerRadius = 10
+		collectionView.delegate = self
+		collectionView.dataSource = self
+		collectionView.register(ThemeObjectCell.self, forCellWithReuseIdentifier: "ThemeCell")
 		return collectionView
 	}()
 	
-	private let pageControl = UIPageControl()
-	private let themeNames = ["Light", "Classic", "Dark"]
+	// Page control to indicate current page
+	private lazy var pageControl: UIPageControl = {
+		let pageControl = UIPageControl()
+		pageControl.translatesAutoresizingMaskIntoConstraints = false
+		pageControl.numberOfPages = themeNames.count
+		pageControl.currentPage = 0
+		pageControl.pageIndicatorTintColor = DesignManager.shared.darkGrayTextColor.withAlphaComponent(0.5)
+		pageControl.currentPageIndicatorTintColor = DesignManager.shared.darkGrayTextColor
+		return pageControl
+	}()
+	
+	// Array of theme names stored in assets
+	private let themeNames = ["Light", "Classic", "Dark", "GrayScale", "Earth"]
 	
 	// MARK: - Lifecycle
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
 		setupView()
-		setupCollectionView()
-		setupPageControl()
 	}
 	
 	// MARK: - Setup Functions
 	
+	// Sets up the view by adding and laying out subviews
 	private func setupView() {
 		view.backgroundColor = .clear
 		view.layer.cornerRadius = 10
-	}
-	
-	private func setupCollectionView() {
+		
+		// Add and layout the collectionView
 		view.addSubview(collectionView)
-		collectionView.backgroundColor = DesignManager.shared.darkItemColor
-		collectionView.layer.cornerRadius = 10
-		
-		collectionView.delegate = self
-		collectionView.dataSource = self
-		collectionView.register(ThemeCollectionViewCell.self, forCellWithReuseIdentifier: "ThemeCell")
-		
 		NSLayoutConstraint.activate([
 			collectionView.topAnchor.constraint(equalTo: view.topAnchor),
 			collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
 			collectionView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
 			collectionView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
 		])
-	}
-	
-	private func setupPageControl() {
-		pageControl.translatesAutoresizingMaskIntoConstraints = false
-		pageControl.numberOfPages = themeNames.count
-		pageControl.currentPage = 0
-		pageControl.pageIndicatorTintColor = DesignManager.shared.darkGrayTextColor.withAlphaComponent(0.5)
-		pageControl.currentPageIndicatorTintColor = DesignManager.shared.darkGrayTextColor
 		
+		// Add and layout the pageControl
 		view.addSubview(pageControl)
-		
 		NSLayoutConstraint.activate([
 			pageControl.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -5),
 			pageControl.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -76,87 +68,84 @@ class ThemeSelectorCarousel: UIViewController, UICollectionViewDelegate, UIColle
 	
 	// MARK: - UICollectionViewDataSource
 	
+	// Returns the number of items in the section
 	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 		return themeNames.count
 	}
 	
+	// Configures and returns the cell for a given index path
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ThemeCell", for: indexPath) as! ThemeCollectionViewCell
-		let themeName = themeNames[indexPath.item]
-		cell.configure(with: themeName)
+		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ThemeCell", for: indexPath) as! ThemeObjectCell
+		cell.configure(with: themeNames[indexPath.item])
 		return cell
 	}
 	
 	// MARK: - UICollectionViewDelegateFlowLayout
 	
+	// Determines the size for each item in the collection view
 	func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-		guard let layout = collectionViewLayout as? PeekCarouselFlowLayout else {
-			return CGSize(width: collectionView.frame.width * 0.75, height: collectionView.frame.height)
-		}
-		return layout.itemSize
+		let availableWidth = collectionView.frame.width
+		let peekWidth = availableWidth * 0.25
+		return CGSize(width: availableWidth - 2 * peekWidth, height: collectionView.frame.height)
 	}
 	
+	// MARK: - UIScrollViewDelegate
+	
+	// Updates the page control when scrolling ends
 	func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
 		let pageWidth = scrollView.frame.width - 2 * (scrollView.frame.width * 0.25)
 		let pageIndex = round(scrollView.contentOffset.x / pageWidth)
-		
 		pageControl.currentPage = Int(pageIndex)
 	}
 }
 
-
+// MARK: - PeekCarouselFlowLayout
 
 class PeekCarouselFlowLayout: UICollectionViewFlowLayout {
 	
-	let peekPercentage: CGFloat = 0.25
+	// Percentage of the view width that should peek from the sides
+	private let peekPercentage: CGFloat = 0.25
 	
 	override func prepare() {
 		super.prepare()
-		
 		guard let collectionView = collectionView else { return }
 		
-		// Set the scroll direction to horizontal
+		// Set scroll direction to horizontal
 		scrollDirection = .horizontal
 		
-		// Calculate available width and peek width
 		let availableWidth = collectionView.bounds.width
 		let peekWidth = availableWidth * peekPercentage
 		
-		// Set the item size, considering peeking
+		// Set item size and section insets
 		itemSize = CGSize(width: availableWidth - 2 * peekWidth, height: collectionView.bounds.height)
-		
-		// Set section insets to allow peeking
 		sectionInset = UIEdgeInsets(top: 0, left: peekWidth, bottom: 0, right: peekWidth)
-		
-		// Disable line spacing
 		minimumLineSpacing = 0
 		
-		// Disable paging as we're handling the centering
+		// Disable paging to customize the scroll behavior
 		collectionView.isPagingEnabled = false
 	}
 	
 	override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
+		// Invalidate layout on bounds change to handle orientation changes
 		return true
 	}
 	
+	// Adjusts the target content offset to center the cell after scrolling
 	override func targetContentOffset(forProposedContentOffset proposedContentOffset: CGPoint, withScrollingVelocity velocity: CGPoint) -> CGPoint {
-		guard let collectionView = collectionView else { return super.targetContentOffset(forProposedContentOffset: proposedContentOffset, withScrollingVelocity: velocity) }
+		guard let collectionView = collectionView else {
+			return super.targetContentOffset(forProposedContentOffset: proposedContentOffset, withScrollingVelocity: velocity)
+		}
 		
 		let pageWidth = itemSize.width
 		let collectionViewWidth = collectionView.bounds.width
-		
-		// Calculate the proposed content offset with insets
 		let proposedContentOffsetCenterX = proposedContentOffset.x + collectionViewWidth / 2.0
 		
-		// Calculate the index of the item that should be centered
+		// Find the index path of the item that should be centered
 		let indexPath = collectionView.indexPathForItem(at: CGPoint(x: proposedContentOffsetCenterX, y: collectionView.bounds.height / 2.0)) ?? IndexPath(item: 0, section: 0)
 		let cellRect = collectionView.layoutAttributesForItem(at: indexPath)?.frame ?? CGRect.zero
 		
-		// Center the cell in the collection view
+		// Adjust content offset to center the selected item
 		let targetOffsetX = cellRect.origin.x - (collectionViewWidth - pageWidth) / 2.0
-		
 		return CGPoint(x: targetOffsetX, y: proposedContentOffset.y)
 	}
 }
-	
-

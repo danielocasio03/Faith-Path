@@ -24,7 +24,7 @@ class VersionSelectVC: UIViewController {
 		label.translatesAutoresizingMaskIntoConstraints = false
 		label.text = "Bible Version"
 		label.textColor = DesignManager.shared.darkGrayTextColor.withAlphaComponent(1)
-		label.font = DesignManager.shared.appFontSemiBold!.withSize(30)
+		label.font = DesignManager.shared.appFontSemiBold!.withSize(25)
 		
 		return label
 	}()
@@ -82,7 +82,7 @@ class VersionSelectVC: UIViewController {
 }
 
 
-//MARK: - Table View Extension
+//MARK: - EXT: Table View
 extension VersionSelectVC: UITableViewDelegate, UITableViewDataSource {
 	
 	//Sets up the Tableviews constraints and adds it to the view

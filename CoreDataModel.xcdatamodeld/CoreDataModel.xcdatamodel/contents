@@ -6,4 +6,10 @@
         <attribute name="isSelected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="ScripturePreferences" representedClassName="ScripturePreferences" syncable="YES">
+        <attribute name="fontName" optional="YES" attributeType="String"/>
+        <attribute name="fontSize" optional="YES" attributeType="String"/>
+        <attribute name="lineHeight" optional="YES" attributeType="String"/>
+        <attribute name="themeName" optional="YES" attributeType="String"/>
+    </entity>
 </model>
