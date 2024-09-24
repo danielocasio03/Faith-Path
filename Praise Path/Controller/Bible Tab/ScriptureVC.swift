@@ -218,6 +218,7 @@ class ScriptureVC: UIViewController {
 	@objc func backButtonTapped() {
 	
 		self.navigationController?.popViewController(animated: true)
+		BackgroundAudioManager.shared.stopSound()
 		
 	}
 	

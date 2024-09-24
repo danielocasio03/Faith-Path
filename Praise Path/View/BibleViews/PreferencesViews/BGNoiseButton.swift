@@ -15,12 +15,15 @@ class BGNoiseButton: UIButton {
 	
 	//This is the declaration for the menu displayed when the user taps the button
 	lazy var soundsMenu: UIMenu = {
-		let option1 = UIAction(title: "White Noise", handler: { _ in print("White Noise selected") })
-		let option2 = UIAction(title: "Dark Noise", handler: { _ in print("Dark Noise selected") })
-		let option3 = UIAction(title: "Ocean", handler: { _ in print("Ocean Sounds selected") })
-		let option4 = UIAction(title: "Rain", handler: { _ in print("Rain selected") })
-		let option5 = UIAction(title: "Off", handler: { _ in print("Off selected") })
-		return UIMenu(title: "Background Sounds", children: [option1, option2, option3, option4])
+		let brightNoise = UIAction(title: "Bright Noise", handler: {[weak self] _ in self?.soundSelected(soundName: "Bright Noise") })
+		let darkNoise = UIAction(title: "Dark Noise", handler: { [weak self] _ in self?.soundSelected(soundName: "Dark Noise") })
+		let morningLakeside = UIAction(title: "Morning Lakeside", handler: { [weak self] _ in self?.soundSelected(soundName: "Morning Lakeside") })
+		let silentForest = UIAction(title: "Silent Forest", handler: { [weak self] _ in self?.soundSelected(soundName: "Silent Forest") })
+		let thunderAndRain = UIAction(title: "Thunder & rain", handler: { [weak self] _ in self?.soundSelected(soundName: "Thunder & Rain") })
+		let waterStream = UIAction(title: "Water Stream", handler: { [weak self] _ in self?.soundSelected(soundName: "Water Stream") })
+		let off = UIAction(title: "Off", handler: {[weak self] _ in self?.stopSelected() })
+
+		return UIMenu(title: "Background Sounds", children: [brightNoise, darkNoise, morningLakeside, silentForest, thunderAndRain, waterStream, off])
 	}()
 	
 	
@@ -49,6 +52,18 @@ class BGNoiseButton: UIButton {
 		self.menu = soundsMenu
 		self.showsMenuAsPrimaryAction = true
 
+	}
+	
+	//MARK: - Action functions
+	
+	//Function called when a sound is selected from the menu. Calls the method in BackGroundAudioManager that plays a the selected sound
+	func soundSelected(soundName: String) {
+		BackgroundAudioManager.shared.playSound(named: soundName)
+	}
+	
+	//Function called when off is selected from the menu. Calls the method in BackGroundAudioManager that stops all sounds
+	func stopSelected() {
+		BackgroundAudioManager.shared.stopSound()
 	}
 	
 	required init?(coder: NSCoder) {

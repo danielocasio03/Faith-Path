@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9302F2FA2CA230820006BDA7 /* Silent Forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9302F2F52CA230820006BDA7 /* Silent Forest.mp3 */; };
+		9302F2FB2CA230820006BDA7 /* Thunder & Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9302F2F62CA230820006BDA7 /* Thunder & Rain.mp3 */; };
+		9302F2FC2CA230820006BDA7 /* Morning Lakeside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9302F2F72CA230820006BDA7 /* Morning Lakeside.mp3 */; };
+		9302F3002CA231210006BDA7 /* Water Stream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9302F2FF2CA231200006BDA7 /* Water Stream.mp3 */; };
 		9308468D2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9308468C2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift */; };
 		931E94A62C07AC70008500A3 /* BookVersionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931E94A52C07AC70008500A3 /* BookVersionButton.swift */; };
 		9323EAF42BAA4C5D00FB8AB9 /* ThemeOTDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9323EAF32BAA4C5D00FB8AB9 /* ThemeOTDModel.swift */; };
@@ -18,6 +22,8 @@
 		933531C72C17C8E1000E5FC9 /* ChapterSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933531C62C17C8E1000E5FC9 /* ChapterSelectVC.swift */; };
 		933531C92C17D068000E5FC9 /* ChapterItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933531C82C17D068000E5FC9 /* ChapterItemCell.swift */; };
 		9350F0452C61899100046FE9 /* ThemeObjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9350F0442C61899100046FE9 /* ThemeObjectCell.swift */; };
+		9368977A2C9BA698005D84AC /* BackgroundAudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936897792C9BA698005D84AC /* BackgroundAudioManager.swift */; };
+		9368977C2C9BA872005D84AC /* Sandwich Of Love.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9368977B2C9BA872005D84AC /* Sandwich Of Love.m4a */; };
 		9373FDCD2BD2D5E900F4451E /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9373FDCC2BD2D5E900F4451E /* TabBar.swift */; };
 		9376A6282BC4A00200413733 /* PathwayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9376A6272BC4A00200413733 /* PathwayView.swift */; };
 		937E2B172BBCAF0700EFC8B3 /* OctagonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E2B162BBCAF0700EFC8B3 /* OctagonButton.swift */; };
@@ -26,6 +32,8 @@
 		9388735B2BBB5D2500D3BDE3 /* FaithPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9388735A2BBB5D2500D3BDE3 /* FaithPathView.swift */; };
 		938DF9B82C4096FA00B52405 /* PreferencesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938DF9B72C4096FA00B52405 /* PreferencesVC.swift */; };
 		939E32B22BD1CD1800E46C9D /* PrayerReqButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939E32B12BD1CD1800E46C9D /* PrayerReqButton.swift */; };
+		93A58B1A2CA242B3006EFEA2 /* Dark Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A58B182CA242B3006EFEA2 /* Dark Noise.mp3 */; };
+		93A58B1C2CA24431006EFEA2 /* Bright Noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93A58B1B2CA24431006EFEA2 /* Bright Noise.mp3 */; };
 		93AAD2332C07F25F00BF21A5 /* VersionSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */; };
 		93AAD2352C091C9300BF21A5 /* VersionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */; };
 		93B4FF0A2C74196B00614DEE /* BGNoiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B4FF092C74196B00614DEE /* BGNoiseButton.swift */; };
@@ -62,6 +70,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9302F2F52CA230820006BDA7 /* Silent Forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Silent Forest.mp3"; sourceTree = "<group>"; };
+		9302F2F62CA230820006BDA7 /* Thunder & Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thunder & Rain.mp3"; sourceTree = "<group>"; };
+		9302F2F72CA230820006BDA7 /* Morning Lakeside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Morning Lakeside.mp3"; sourceTree = "<group>"; };
+		9302F2FF2CA231200006BDA7 /* Water Stream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Water Stream.mp3"; sourceTree = "<group>"; };
 		9308468C2C6C23BE00C008C0 /* ThemeSelectorCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectorCarousel.swift; sourceTree = "<group>"; };
 		931E94A52C07AC70008500A3 /* BookVersionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVersionButton.swift; sourceTree = "<group>"; };
 		9323EAF32BAA4C5D00FB8AB9 /* ThemeOTDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeOTDModel.swift; sourceTree = "<group>"; };
@@ -73,6 +85,8 @@
 		933531C62C17C8E1000E5FC9 /* ChapterSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSelectVC.swift; sourceTree = "<group>"; };
 		933531C82C17D068000E5FC9 /* ChapterItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterItemCell.swift; sourceTree = "<group>"; };
 		9350F0442C61899100046FE9 /* ThemeObjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeObjectCell.swift; sourceTree = "<group>"; };
+		936897792C9BA698005D84AC /* BackgroundAudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioManager.swift; sourceTree = "<group>"; };
+		9368977B2C9BA872005D84AC /* Sandwich Of Love.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sandwich Of Love.m4a"; sourceTree = "<group>"; };
 		9373FDCC2BD2D5E900F4451E /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		9376A6272BC4A00200413733 /* PathwayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathwayView.swift; sourceTree = "<group>"; };
 		937E2B162BBCAF0700EFC8B3 /* OctagonButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctagonButton.swift; sourceTree = "<group>"; };
@@ -81,6 +95,8 @@
 		9388735A2BBB5D2500D3BDE3 /* FaithPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaithPathView.swift; sourceTree = "<group>"; };
 		938DF9B72C4096FA00B52405 /* PreferencesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesVC.swift; sourceTree = "<group>"; };
 		939E32B12BD1CD1800E46C9D /* PrayerReqButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerReqButton.swift; sourceTree = "<group>"; };
+		93A58B182CA242B3006EFEA2 /* Dark Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dark Noise.mp3"; sourceTree = "<group>"; };
+		93A58B1B2CA24431006EFEA2 /* Bright Noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bright Noise.mp3"; sourceTree = "<group>"; };
 		93AAD2322C07F25F00BF21A5 /* VersionSelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionSelectVC.swift; sourceTree = "<group>"; };
 		93AAD2342C091C9300BF21A5 /* VersionTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionTableCell.swift; sourceTree = "<group>"; };
 		93B4FF092C74196B00614DEE /* BGNoiseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGNoiseButton.swift; sourceTree = "<group>"; };
@@ -146,6 +162,21 @@
 				9323EAF82BACF30B00FB8AB9 /* FetchYoutubeAttributes.swift */,
 			);
 			path = ThemeOTD;
+			sourceTree = "<group>";
+		};
+		936897782C9BA680005D84AC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9302F2FF2CA231200006BDA7 /* Water Stream.mp3 */,
+				9368977B2C9BA872005D84AC /* Sandwich Of Love.m4a */,
+				9302F2F72CA230820006BDA7 /* Morning Lakeside.mp3 */,
+				9302F2F52CA230820006BDA7 /* Silent Forest.mp3 */,
+				9302F2F62CA230820006BDA7 /* Thunder & Rain.mp3 */,
+				93A58B182CA242B3006EFEA2 /* Dark Noise.mp3 */,
+				93A58B1B2CA24431006EFEA2 /* Bright Noise.mp3 */,
+				936897792C9BA698005D84AC /* BackgroundAudioManager.swift */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		9373FDCB2BD2BAF200F4451E /* MiscViews */ = {
@@ -270,6 +301,7 @@
 		93E35E022B8594F9008E939A /* Praise Path */ = {
 			isa = PBXGroup;
 			children = (
+				936897782C9BA680005D84AC /* Sounds */,
 				93E5D5A52C221C6700B1A0EB /* ScriptureCSS.css */,
 				93B4FF0E2C757A1700614DEE /* Design and Fonts */,
 				93D570642C0E7D6300A0815A /* CoreData & Persistence */,
@@ -440,10 +472,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A58B1C2CA24431006EFEA2 /* Bright Noise.mp3 in Resources */,
+				93A58B1A2CA242B3006EFEA2 /* Dark Noise.mp3 in Resources */,
+				9302F2FC2CA230820006BDA7 /* Morning Lakeside.mp3 in Resources */,
+				9302F3002CA231210006BDA7 /* Water Stream.mp3 in Resources */,
 				93E35E102B8594FB008E939A /* LaunchScreen.storyboard in Resources */,
 				93E35E0D2B8594FB008E939A /* Assets.xcassets in Resources */,
 				93B4FF102C757A4800614DEE /* CrimsonPro.ttf in Resources */,
+				9302F2FA2CA230820006BDA7 /* Silent Forest.mp3 in Resources */,
+				9368977C2C9BA872005D84AC /* Sandwich Of Love.m4a in Resources */,
 				93CA308B2C814CF80022671B /* NewYork.ttf in Resources */,
+				9302F2FB2CA230820006BDA7 /* Thunder & Rain.mp3 in Resources */,
 				93E5D5A62C221C6700B1A0EB /* ScriptureCSS.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +514,7 @@
 				93E35E042B8594F9008E939A /* AppDelegate.swift in Sources */,
 				93F896402B9BEC6200728FEE /* VerseOTDFetchManager.swift in Sources */,
 				93F8963E2B9BEB5000728FEE /* VerseOTDModel.swift in Sources */,
+				9368977A2C9BA698005D84AC /* BackgroundAudioManager.swift in Sources */,
 				9350F0452C61899100046FE9 /* ThemeObjectCell.swift in Sources */,
 				937E2B172BBCAF0700EFC8B3 /* OctagonButton.swift in Sources */,
 				933531C72C17C8E1000E5FC9 /* ChapterSelectVC.swift in Sources */,
